@@ -74,13 +74,13 @@ nav {
     text-decoration: none;
     padding: 5px;
     color: black;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: text-decoration 1s;
 }
 
 .nav_link:focus,
 .nav_link:hover {
-    color: #d89293;
+    color: #000000;
     text-decoration: underline #d89293;
 }
 /*---------------Header---------------*/

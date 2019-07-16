@@ -1,8 +1,12 @@
 /*--------------Webpage background color and font----------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Julius+Sans+One');
+
+/*--------------General Styles----------------*/
+
 body {
     background-color: #ffffff;
-    font-family: 'Courier New', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 /*--------banner photo size------------*/
@@ -21,8 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Courier New', sans-serif;
-    letter-spacing: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 5px;
 }
 
 /*----header 2 in box control -----*/
@@ -45,9 +49,35 @@ nav,
 
 /*----------Top Bar Area----------------*/
 
+/*-------Nav Bar ----------*/
+
 nav {
     background-color: white;
     padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.2em
+}
+
+.nav_title {
+    margin-right: auto;
+}
+
+.nav_link {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 1em;
+    transition: text-decoration 1s;
+}
+
+.nav_link:focus,
+.nav_link:hover {
+    color: #000000;
+    text-decoration: underline #000000;
 }
 
 /*-----Position of Banner Photo---------*/
