@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Julius+Sans+One');
 
-/*--------------General Styles----------------*/
+/*----------General Styles-------------*/
 
 body {
-    background-color: #fff;
+    background-color: #ebe6e6;
     font-family: 'Advent Pro', sans-serif;
 }
 
@@ -31,16 +31,29 @@ img {
     max-width: 100%;
 }
 
+.link {
+    color: #000;
+}
+
+.link:visited {
+    color: #274a6c;
+}
+
+.link:focus,
+.link:hover {
+    color: #d89293;
+    text-decoration: none;
+}
+
 nav,
 .navbar,
-#gallery-cards,
 #social-link,
 .credits {
     display: flex;
     flex-flow: row wrap;
 }
 
-  /*----------Navigation----------------*/
+/*------------Navigation----------------*/
 
 nav {
     background-color: white;
@@ -67,29 +80,27 @@ nav {
 
 .nav_link:focus,
 .nav_link:hover {
-    color: #00000;
-    text-decoration: underline #000000;
+    color: #d89293;
+    text-decoration: underline #d89293;
 }
-
-   /*------------Header---------------*/
+/*---------------Header---------------*/
 
 .hero_image {
-    background-image: url("https://images.unsplash.com/photo-1542601098-8fc114e148e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-    height: 50%;
+    background-image: url("https://images.unsplash.com/photo-1450175178156-cb9ecd3da179?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+    height: 40%;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 10px;
     position: relative;
 }
 
 .hero_txt {
     text-align: center;
     position: absolute;
-    text-decoration: underline;
-    top: 110%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
     font-size: 1.2em;
 }
 
@@ -97,92 +108,66 @@ nav {
     font-size: 1.3em;
 }
 
-.hero_heading {
-    font-size: 3em;
-    background-color: rgba(117, 111, 111, 0.6);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-/*-------------------Main---------------------*/
+/*-------------Main----------------*/
 
 main {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    
 }
 
-/*-----------Gallery---------------*/
+/*------------Slideshow---------------*/
 
-.gallery {
-    padding-top: 50px;
-    padding-bottom: 10px;
+
+/*---------------Blog Layout-----------*/
+body {
+  
+  padding: 20px;
+  background: #f1f1f1;
+
 }
 
-#gallery-cards {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    max-width: 100%;
-    margin: auto;
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 62%;
 }
 
-.gallery-card {
-    margin: 5px;
-    position: relative;
-    text-align: center;
-    transition: all 0.4s ease-in;
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
 }
 
-.gallery-card_image {
-    border-radius: 5px;
-    max-width: 400px;
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
 }
 
-.gallery-cards_overlaybtn {
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-.gallery-cards_overlaybtn:focus,
-.gallery-cards_overlaybtn:hover {
-    background-color: #000000;
-    color: #fff;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.gallery-card:hover .overlay {
-    width: 50%;
-}
-
-/*---------Site Explanation Box --------*/
-
-#about_content {
-    margin: -50px;
-    display: flex;
-    flex-flow: inherit;
-    font-size: 2em;
-    align-content: center;
-    justify-content: center;
-    background-color: white;
-    width: 80%;
-    padding-right: 100px;
-    padding-left: 250px;
-    padding-top: 50px;
-    padding-bottom: 110px;
-    border-radius: 5px;
-}
-
-/*-------text portion --------*/
-
-#about_text {
-    margin: -10px;
-    line-height: 1.5em;
-    margin-right: 100px;
-    max-width: 60%
-   
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 52%;
+    padding: 0;
+  }
 }
 
 /*---------------Footer--------------*/
@@ -194,11 +179,11 @@ footer {
     padding: 0;
 }
 
-/*----------Social--------------------*/
+/*--------------------Social--------------------*/
 
 #social-link {
     justify-content: center;
-    background-color: #E0FFFF;
+    background-color: #d89293;
     padding: 20px;
     padding-top: 20px;
 }
@@ -208,8 +193,8 @@ footer {
     min-width: 30px;
     margin: 5px;
     padding: 10px;
-    border: 1px solid black;
-    color: #000000;
+    border: 1px solid white;
+    color: #fff;
     border-radius: 5px;
     font-size: 1.5em;
     text-align: center;
@@ -217,7 +202,7 @@ footer {
 
 .social-link_icon:focus,
 .social-link_icon:hover {
-    background-color: #fff;
+    background-color: #274a6c;
 }
 
 /*----------------------Credits-----------------*/
@@ -237,6 +222,9 @@ footer {
 @media (max-width: 1600px) {
     #gallery-cards {
         justify-content: center;
+    }
+    .vintage-team_card {
+        margin-bottom: 100px;
     }
     .gallery {
         flex-flow: column wrap;
@@ -262,6 +250,12 @@ footer {
             justify-items: center;
             width: auto;
         }
+        #man-snow_box {
+            margin: auto;
+            margin-bottom: -120px;
+            order: -1;
+            z-index: 1;
+        }
         .hero_image {
             background-image: url("https://s19.postimg.cc/d7f9pixrl/heroflower620_2x.jpg");
         }
@@ -273,6 +267,9 @@ footer {
         #social-link h3 {
             margin: auto;
             margin-bottom: 10px;
+        }
+        #contact-us {
+            width: 80%;
         }
     }
     @media (max-width: 550px) {
@@ -287,6 +284,9 @@ footer {
         .gallery-card_image {
             width: 300px;
             height: auto;
+        }
+        #man-snow_img {
+            max-width: 200px;
         }
         .gallery p {
             padding: 10px;
@@ -323,9 +323,14 @@ footer {
             padding: 5%;
             padding-top: 10%;
         }
+        .vintage-team_heading {
+            padding-bottom: 60px;
+        }
         input,
         textarea {
             max-width: 90%;
         }
-       
+        .contact_heading {
+            font-size: 1.2em;
+        }
     }
