@@ -116,14 +116,11 @@ main {
     align-items: center;
 }
 
-/*------------Slideshow---------------*/
-
-
 /*---------------Blog Layout-----------*/
 body {
   
-  padding: 20px;
-  background: #f1f1f1;
+  padding: 10px;
+  background: #fff;
 
 }
 
@@ -131,28 +128,21 @@ body {
 /* Left column */
 .leftcolumn { 
   float: left;
-  width: 62%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 35%;
-  padding-left: 20px;
+  width: 52%;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background-color: #d3d3d3;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+  background-color: charcoal;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 /* Clear floats after the columns */
@@ -183,7 +173,7 @@ footer {
 
 #social-link {
     justify-content: center;
-    background-color: #d89293;
+    background-color: #d3d3d3;
     padding: 20px;
     padding-top: 20px;
 }
@@ -202,7 +192,7 @@ footer {
 
 .social-link_icon:focus,
 .social-link_icon:hover {
-    background-color: #274a6c;
+    background-color: #000000;
 }
 
 /*----------------------Credits-----------------*/
