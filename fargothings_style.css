@@ -145,6 +145,11 @@ body {
   margin-top: 10px;
 }
 
+.FargoGraphic {
+ align-items: right;
+ padding-left: 850px;
+} 
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
