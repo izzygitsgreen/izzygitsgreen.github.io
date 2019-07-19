@@ -3,7 +3,7 @@
 /*----------General Styles-------------*/
 
 body {
-    background-color: #ebe6e6;
+    background-color: #fff;
     font-family: 'Advent Pro', sans-serif;
 }
 
@@ -111,44 +111,49 @@ nav {
 /*-------------Main----------------*/
 
 main {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    disp    align-items: center;
 }
 
-/*---------------Blog Layout-----------*/
-body {
-  
-  padding: 10px;
-  background: #fff;
+/*---------First Post----------------*/
 
+body {
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  background: white;
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn { 
   float: left;
-  width: 52%;
+  width: 62%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 125px;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: #d3d3d3;
+  background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: charcoal;
-  padding: 10px;
-  margin-top: 10px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
-
-.FargoGraphic {
- align-items: right;
- padding-left: 850px;
-} 
 
 /* Clear floats after the columns */
 .row:after {
@@ -160,10 +165,12 @@ body {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
-    width: 52%;
+    width: 100%;
     padding: 0;
   }
 }
+
+
 
 /*---------------Footer--------------*/
 
