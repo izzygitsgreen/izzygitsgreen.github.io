@@ -20,7 +20,8 @@ h4,
 h5,
 h6 {
     font-family: 'Julius Sans One', sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 h2 {
@@ -29,20 +30,6 @@ h2 {
 
 img {
     max-width: 100%;
-}
-
-.link {
-    color: #000;
-}
-
-.link:visited {
-    color: #274a6c;
-}
-
-.link:focus,
-.link:hover {
-    color: #d89293;
-    text-decoration: none;
 }
 
 nav,
@@ -118,7 +105,7 @@ main {
 
 body {
   padding: 25px;
-  background: #f1f1f1;
+  background: #fff;
 }
 
 
@@ -145,7 +132,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: WhiteSmoke;
   padding: 20px;
   margin-top: 20px;
 }
@@ -164,6 +151,32 @@ body {
     padding: 0;
   }
 }
+
+<!-----------Post History------------>
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 
 
 /*---------------Footer--------------*/
