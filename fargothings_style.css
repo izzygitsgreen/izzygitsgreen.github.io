@@ -21,7 +21,7 @@ h5,
 h6 {
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 5px;
-    text-align: center;
+    text-align: center
 }
 
 h2 {
@@ -104,10 +104,9 @@ main {
 /*---------First Post----------------*/
 
 body {
-  padding: 25px;
+  padding: 0px;
   background: #fff;
 }
-
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
