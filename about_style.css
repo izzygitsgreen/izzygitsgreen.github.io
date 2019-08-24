@@ -25,6 +25,7 @@ h6 {
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 5px;
     text-align: center;
+
 }
 
 h2 {
@@ -43,25 +44,6 @@ nav,
     display: flex;
     flex-flow: row wrap;
 }
-
-/*----------Photo Bar----------------*/
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 12%;
-  padding: 0px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-
-  display: table;
-}
-
-
 
 /*----------Navigation----------------*/
 
@@ -101,32 +83,8 @@ nav {
     height: 30%;
     background-position: center;
     background-size: cover;
-    padding-bottom: 120px;
+    padding-bottom: 25px;
     position: relative;
-}
-
-
-.hero_txt {
-    text-align: center;
-    position: absolute;
-    text-decoration: underline;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 1.2em;
-}
-
-.hero_subheading {
-    font-size: 1.3em;
-    padding-top: 25px;
-}
-
-.hero_heading {
-    font-size: 3em;
-    background-color: d3d3d3;
-    border-radius: 5px;
-    padding: 5px;
 }
 
 /*-------------------Main---------------------*/
@@ -138,46 +96,11 @@ main {
     background-color: white;
 }
 
-/*-----------Gallery------------*/
+/*-----------Photo------------*/
 
-
-
-/*----------Explanation---------*/
-
-#about {
-    display: inherit;
-    justify-content: center;
-    margin-top: 0px;
-    padding: 100px;
-    margin-bottom: 0px;
+.about_text {
+    font-size: 5em;
 }
-
-/*------colored box portion -------*/
-#about_content {
-    margin: -50px;
-    display: flex;
-    flex-flow: column;
-    font-size: 1.5em;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    padding-right: 50px;
-    padding-left: 300px;
-    padding-top: 10px;
-    padding-bottom: -10px;
-    border-radius: 5px;
-}
-
-/*-------text portion --------*/
-
-#about_text {
-    margin: -10px;
-    line-height: 1.5em;
-    margin-right: 100px;
-    max-width: 60%
-}
-
-/*---------------Boxes--------------*/
 
 
 /*----------Social--------------------*/
