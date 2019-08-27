@@ -3,6 +3,7 @@
 /*--------------General Styles----------------*/
 
 
+
 body {
     background-color: #fff;
     font-family: 'Advent Pro', sans-serif;
@@ -47,7 +48,11 @@ nav,
 
 /*----------Navigation----------------*/
 
-nav {
+.photobanner {
+    align-items: center;
+}
+
+.nav {
     background-color: white;
     padding: 10px;
 }
@@ -94,14 +99,9 @@ main {
     flex-flow: column wrap;
     align-items: center;
     background-color: white;
+    object-fit: contain
+
 }
-
-/*-----------Photo------------*/
-
-.about_text {
-    font-size: 5em;
-}
-
 
 /*----------Social--------------------*/
 
@@ -144,36 +144,38 @@ main {
 /*-------------------Media Queries---------------*/
 
 @media (max-width: 1600px) {
-    #gallery-cards {
-        justify-content: center;
-    }
+    
     .gallery {
         flex-flow: column wrap;
         align-items: center;
     }
+    
     @media only screen and (max-width:740px) and (orientation: landscape) {
         .hero_subheading {
             display: none;
         }
-        .hero_heading {
-            font-size: 1.7em;
-        }
     }
+
     @media (max-width: 620px) {
         #about {
             flex-flow: column wrap;
             justify-items: center;
             margin: 10px;
         }
-        #about_content {
+        }
+
+        #nav_title {
             padding: 15px;
             padding-top: 30px;
             justify-items: center;
             width: auto;
         }
-        .hero_image {
-            background-image: url("https://s19.postimg.cc/d7f9pixrl/heroflower620_2x.jpg");
+ 
+        #navbar {
+            justify-items: center;
+            width: auto;
         }
+
         #social-link {
             flex-flow: column wrap;
             align-content: center;
@@ -206,12 +208,6 @@ main {
             flex-flow: row wrap;
             justify-content: center;
         }
-        #vintage-team_heading {
-            margin: 5px;
-        }
-        #vintage-team {
-            max-width: 80%;
-        }
         .overlay {
             font-size: 1em;
         }
@@ -220,13 +216,7 @@ main {
         .nav_link {
             margin: 5px;
         }
-        .gallery-card_image {
-            max-width: 300px;
-        }
-        .gallery-card:focus .overlay,
-        .gallery-card:hover .overlay {
-            width: 100%;
-        }
+      
         #about {
             margin: auto;
             padding: 5%;
