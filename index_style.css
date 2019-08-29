@@ -161,9 +161,9 @@ main {
 }
 
 .gallery-card_image {
-    border-radius: 5px;
+    border-radius: 2px;
     object-fit: fill;
-    border-style: groove;
+    border-style: none;
     border-color: A9A9A9;
     max-width: 400px;
 }
@@ -185,7 +185,6 @@ main {
 .gallery-card:hover .overlay {
     width: 50%;
 }
-
 
 /*---------------Explanation---------*/
 
