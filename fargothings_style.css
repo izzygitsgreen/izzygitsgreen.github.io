@@ -42,7 +42,7 @@ nav,
 
 /*------------Navigation----------------*/
 
-nav {
+.nav {
     background-color: white;
     padding: 10px;
 }
@@ -112,7 +112,7 @@ body {
 /* Left column */
 .leftcolumn { 
   float: left;
-  width: 55%;
+  width: 50%;
 }
 
 /* Right column */
