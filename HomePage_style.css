@@ -1,0 +1,50 @@
+
+body {
+ font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 100;
+ font-size: 100px;
+ padding-left: 60px;
+ padding-top: -40px;
+ text-transform: uppercase;
+}
+
+
+/*-----------------------------------------------*/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 15px;
+  font-family: "Montserrat", "Times", "serif";  
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+
+
+
+footer {
+  display: block;
+  font-family: "Montserrat", "Times", "serif";
+  background:#FFF; 
+  text-align: center;
+  padding-top: 100px;
+}
