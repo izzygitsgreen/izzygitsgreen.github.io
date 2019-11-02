@@ -12,6 +12,14 @@ h1, h2, h3, h4, h5, h6 {
  text-transform: uppercase;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 85px;
+  padding-top: -20px;
+  padding-bottom: 0px; 
+}
+
 /*-----------------------------------------------*/
 
 
@@ -43,5 +51,5 @@ footer {
   font-family: "Montserrat", "Times", "serif";
   background:#FFF; 
   text-align: center;
-  padding-top: 100px;
+  padding-top: 170px;
 }
