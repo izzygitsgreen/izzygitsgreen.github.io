@@ -20,6 +20,12 @@ h1 {
   padding-bottom: 0px; 
 }
 
+h1 span {
+  text-decoration: underline;
+  text-decoration-color: blue; 
+  text-decoration-style: solid;
+}
+
 /*-----------------------------------------------*/
 
 
