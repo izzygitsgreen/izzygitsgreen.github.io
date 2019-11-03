@@ -14,16 +14,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  font-size: 85px;
+  font-weight: 30;
+  font-size: 65px;
   padding-top: -20px;
   padding-bottom: 0px; 
 }
 
-h1 span {
-  text-decoration: underline;
-  text-decoration-color: blue; 
-  text-decoration-style: solid;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
 }
 
 /*-----------------------------------------------*/
@@ -51,11 +51,28 @@ li a {
   text-decoration: none;
 }
 
+/*----------------------*/
+
+.column {
+  float: left;
+  width: 50%;
+  margin-right: -120px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----------------------*/
+
 
 footer {
   display: block;
   font-family: "Montserrat", "Times", "serif";
   background:#FFF; 
   text-align: center;
-  padding-top: 170px;
+  padding-top: 0px;
 }
