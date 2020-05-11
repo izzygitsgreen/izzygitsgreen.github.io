@@ -1,74 +1,125 @@
 body {
- font-family: 'Lora', serif;
+  font-family: 'Merriweather', 'Sacramento', 'serif';
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 30;
-  font-size: 45px;
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: lighter;
+  font-size: 20px;
   text-align: center;
+  padding: 0 0 0 0;
+  margin: 0 0 5px 0;
+  color: #c9b6e4;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 30;
-  font-size: 65px; 
-  text-transform: uppercase;
+  font-family: 'Sacramento', 'sans-serif';
+  font-size: 100px;
   text-align: center;
+  margin: 20px 0 -70px 0;
+  color: #BE9FE1;
 }
 
-h3 { 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 30;
-  letter-spacing: 0px;
+h3 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 25px;
+  color: #BE9FE1;
+}
+
+h4 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 55px;
+  text-align: center;
+  color: #BE9FE1;
+}
+
+p {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: normal;
   font-size: 20px;
-  padding-right: 200px;
-  padding-left: 200px;
+  width: 50%;
+  margin: 0 auto 25px auto;
 }
 
-/*-----------------------------------------------*/
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FFF;
+a {
+  font-family: 'Sacramento', 'sans-serif';
+  font-size: 30px;
+  color: #000;
+  margin: 10px 30px;
+  text-decoration: none;
 }
 
-li {
+.index-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 5px;
+  }
+
+.interests-color {
+  background-color: #FAF4FF;
+  padding: 50px;
+}
+
+.interests {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  line-height: normal;
+}
+
+.interest-row-l {
+  text-align: left;
+  padding: 25px;
+}
+
+.interest-row-r {
+  text-align: right;
+  padding: 25px;
+}
+
+.interest-pic-l {
   float: left;
+  margin-right: 30px;
+}
+
+.interest-pic-r {
+  float: right;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #FAF4FF;
+  padding-bottom: 100px;
+}
+
+.middle-container {
+  width: 60%;
+  margin: 150px auto 150px auto;
+  line-height: normal;
 }
 
 li a {
   display: block;
-  color: black;
-  font-size: 15px;
-  font-family: "Montserrat", "Times", "serif";  
-  text-align: center;
-  padding: 15px 20px;
+  color: #C9B6E4;
+  font-size: 25px;
+  font-family: "Sacramento", "Times", "serif";
+  padding: 20px 0;
   text-decoration: none;
 }
 
-/*----------------------*/
-
-.column {
+li {
+  list-style-type: none;
   float: left;
-  width: 50%;
-  margin-right: -120px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.contact {
+  text-align: center;
+  padding: 20px;
 }
 
-/*----------------------*/
-
-footer {
-  font-family: "Montserrat", "Times", "serif"; 
+.icons {
+  background-color: #C9B6E4;
+  padding: 20px;
   text-align: center;
 }
