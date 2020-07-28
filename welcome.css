@@ -1,0 +1,57 @@
+h2 {
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*styling the text to fit the word length*/
+.typing-demo {
+  /*length of cursur*/
+  width: 12ch;
+  /*length of text*/
+  animation: typing 3s steps(32), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: monospace;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+      margin: auto;
+      font-size: 60px;
+      text-align: center;
+      display: inline-block;
+}
+
+/*styling the text to fit the word length*/
+.typing-button {
+  /*length of cursur*/
+  width: 3ch;
+  /*length of text*/
+  /*increase typing time to slow the speed of the letters*/
+  animation: typing 3s steps(10), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /*Distance from top*/
+  top: 55%;
+  transform: translateY(-50%);
+      margin: auto;
+      text-align: center;
+      display: inline-block;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
