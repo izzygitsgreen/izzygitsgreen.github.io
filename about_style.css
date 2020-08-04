@@ -107,6 +107,7 @@ border-bottom:0;
     transform-origin: top left;
     transform: rotate(-90deg);
     padding-top: 20px;
+    font-size: 15px;
 }
 
 .middle-container {
