@@ -187,11 +187,11 @@ div#frame a:hover.note {
     left: 60;
     right: 0;        
     text-align: left;
-    top: 10%; /* Adjust this value to move the positioned div up and down */
+    top: 15%; /* Adjust this value to move the positioned div up and down */
     
     font-family: Helvetica ,sans-serif;
     color: #fff;
-    width: 90%; /* Set the width of the positioned div */
+    width: 70%; /* Set the width of the positioned div */
 }
 
 /*-------Footer---------*/
