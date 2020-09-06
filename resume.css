@@ -35,7 +35,7 @@ h6 {
 
 }
 
-p 
+p {
     color: #00000;
     font-size: 10px;
     margin-top: 10px;
@@ -105,6 +105,7 @@ z-index: -1;
 
 .column {
   flex: 50%;
+
 }
 
 /*-------Bulletin Board---------*/
@@ -178,6 +179,7 @@ div#frame a:hover.note {
 .box {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
+    padding-top: 50px;
     }
     
 .box .text {
@@ -187,7 +189,7 @@ div#frame a:hover.note {
     left: 60;
     right: 0;        
     text-align: left;
-    top: 15%; /* Adjust this value to move the positioned div up and down */
+    top: 25%; /* Adjust this value to move the positioned div up and down */
     
     font-family: Helvetica ,sans-serif;
     color: #fff;
@@ -196,7 +198,11 @@ div#frame a:hover.note {
 
 /*-------Footer---------*/
 
-footer {
+.footer {
+    position:fixed;
+    right: 500px;
+    bottom: 0px;
+    width: 400px;
     text-align: center;
 }
 
