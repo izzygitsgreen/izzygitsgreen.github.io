@@ -4,28 +4,13 @@ body {
     padding-top: 20px;
 }
 
-h1 {
-    margin-left: 100px;
-    margin-top: 100px;
-    font-size: 4em;
-    color: #212529;
-}
-
-h2 {
-    font-size: 15px;
-    margin-left: 100px;
-    margin-right: 300px;
-    margin-top: 30px;
-    line-height: 40px;
-    color: #212529;
-}
-
 h3 {
     font-size: 20px;
     color: #212529;
 }
 
 h5 {
+    font-family: 'Quicksand', sans-serif;
     font-size: 4em;
     color: #212529;
 }
@@ -71,16 +56,19 @@ hr {
 
 /*---------Content--------*/
 .top-container {
-    margin-left: 75px;
-    margin-top: -20px;
+    margin-left: 175px;
     margin-right: 100px;
-
+    margin-top: 80px;
+    font-size: 4em;
+    color: #212529;
 }
 
-.plant {
-    float: right;
-    clear: right;
-    margin-top: -300px;
+.top-container-words {
+    font-size: 10px;
+    margin-left: 175px;
+    margin-top: 40px;
+    line-height: 40px;
+    color: #212529;
 }
 
 .plant2 {
@@ -103,8 +91,8 @@ hr {
     position: fixed;
     transform-origin: top left;
     transform: rotate(-90deg);
-    padding-top: 20px;
-
+    padding-top: 10px;
+    padding-left:100px;
     font-size: 20px;
 }
 
@@ -126,8 +114,9 @@ hr {
     padding-top: 100px;
 }
 
-.bttm {
-    margin: 20px;
+.btn {
+    margin-left: 0px;
+    margin-top: 40px;
 }
 
 .skill-row {
