@@ -64,8 +64,9 @@ hr {
 }
 
 .description-words {
-    font-size: 10px;
+    font-size: 1em;
     margin-left: 175px;
+    margin-right: 175px;
     margin-top: 40px;
     line-height: 40px;
     color: #212529;
