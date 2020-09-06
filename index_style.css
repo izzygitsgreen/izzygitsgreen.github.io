@@ -1,125 +1,57 @@
-body {
-  font-family: 'Merriweather', 'Sacramento', 'serif';
-}
-
-h1 {
-  font-family: 'Montserrat', 'sans-serif';
-  font-weight: lighter;
-  font-size: 20px;
-  text-align: center;
-  padding: 0 0 0 0;
-  margin: 0 0 5px 0;
-  color: #c9b6e4;
-}
-
 h2 {
-  font-family: 'Sacramento', 'sans-serif';
-  font-size: 100px;
-  text-align: center;
-  margin: 20px 0 -70px 0;
-  color: #BE9FE1;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  font-display: swap;
 }
 
-h3 {
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 25px;
-  color: #BE9FE1;
+/*styling the text to fit the word length*/
+.typing-demo {
+  /*length of cursur*/
+  width: 12ch;
+  /*length of text*/
+  animation: typing 3s steps(32), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: monospace;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+      margin: auto;
+      font-size: 60px;
+      text-align: center;
+      display: inline-block;
 }
 
-h4 {
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 55px;
-  text-align: center;
-  color: #BE9FE1;
+/*styling the text to fit the word length*/
+.typing-button {
+  /*length of cursur*/
+  width: 3ch;
+  /*length of text*/
+  /*increase typing time to slow the speed of the letters*/
+  animation: typing 3s steps(10), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /*Distance from top*/
+  top: 55%;
+  transform: translateY(-50%);
+      margin: auto;
+      text-align: center;
+      display: inline-block;
 }
 
-p {
-  font-family: 'Merriweather', sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  width: 50%;
-  margin: 0 auto 25px auto;
-}
-
-a {
-  font-family: 'Sacramento', 'sans-serif';
-  font-size: 30px;
-  color: #000;
-  margin: 10px 30px;
-  text-decoration: none;
-}
-
-.index-picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 5px;
+@keyframes typing {
+  from {
+    width: 0;
   }
-
-.interests-color {
-  background-color: #FAF4FF;
-  padding: 50px;
 }
-
-.interests {
-  width: 60%;
-  margin: 100px auto 100px auto;
-  line-height: normal;
-}
-
-.interest-row-l {
-  text-align: left;
-  padding: 25px;
-}
-
-.interest-row-r {
-  text-align: right;
-  padding: 25px;
-}
-
-.interest-pic-l {
-  float: left;
-  margin-right: 30px;
-}
-
-.interest-pic-r {
-  float: right;
-  margin-left: 30px;
-}
-
-.top-container {
-  background-color: #FAF4FF;
-  padding-bottom: 100px;
-}
-
-.middle-container {
-  width: 60%;
-  margin: 150px auto 150px auto;
-  line-height: normal;
-}
-
-li a {
-  display: block;
-  color: #C9B6E4;
-  font-size: 25px;
-  font-family: "Sacramento", "Times", "serif";
-  padding: 20px 0;
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-  float: left;
-}
-
-.contact {
-  text-align: center;
-  padding: 20px;
-}
-
-.icons {
-  background-color: #C9B6E4;
-  padding: 20px;
-  text-align: center;
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
