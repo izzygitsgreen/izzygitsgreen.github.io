@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -204,4 +205,212 @@ footer {
     color: #212529;
     font-size: 25px;
     margin: 5px 2px 10px 10px;
+=======
+body {
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #212529;
+}
+
+h2 {
+    font-size: 15px;
+    line-height: 40px;
+    color: #212529;
+}
+
+h3 {
+    font-size: 20px;
+    color: #212529;
+}
+
+h4 {
+    font-size: 20px;
+    color: #212529;
+}
+
+h5 {
+    font-size: 4em;
+    margin-right: 400px;
+    color: #212529;
+}
+
+h6 {
+
+}
+
+p 
+    color: #00000;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/*--------Navbar------------*/
+​ .navbar-custom {
+    background-color: #fff;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+    padding-left: 130px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    font-size: 15px;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #228B22;
+}
+
+.IvyBorder {
+position:absolute;
+left: -200px;
+top: -150px;    
+z-index: -1;
+}
+/*---------Content--------*/
+
+.top-container {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.img {
+    float: left;
+    margin-right: 30px;
+}
+
+.middle-container {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.job {
+    width: 80%;
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 11px;
+}
+
+/*-------columns---------------*/
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/*-------Bulletin Board---------*/
+
+div#frame {
+    width: 500px;
+    height: 500px;
+ }   
+
+.text {
+    margin: 40px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+#previewform {
+    display: none;
+    text-align: center;
+}
+
+.strong {
+    color: #333;
+    background-color: #FAFFA6;
+    padding: 0.1em;
+}
+
+.note {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    float: left;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.sticky1 {
+    transform: rotate(3.5deg);
+    -webkit-transform: rotate(3.5deg);
+    -moz-transform: rotate(-3.5deg);
+    background-image: url("imgs/hexagon.jpg");
+    background-size: 100%;
+}
+
+.sticky2 {
+     transform: rotate(-3.5deg);
+    -webkit-transform: rotate(-3.5deg);
+    background-image: url("imgs/marble.jpg");
+    background-size: 100%;
+}
+
+.sticky3 {
+    transform: rotate(3.5deg);
+    -webkit-transform: rotate(3.5deg);
+    -moz-transform: rotate(3.5deg);
+    background-image: url("imgs/wood.jpg");
+    background-size: 100%;
+}
+
+div#frame a:hover.note {
+    border: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*-------Education---------*/
+
+.box {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    }
+    
+.box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 60;
+    right: 0;        
+    text-align: left;
+    top: 10%; /* Adjust this value to move the positioned div up and down */
+    
+    font-family: Helvetica ,sans-serif;
+    color: #fff;
+    width: 90%; /* Set the width of the positioned div */
+}
+
+/*-------Footer---------*/
+
+footer {
+    text-align: center;
+}
+
+.footer-icons {
+    color: #212529;
+    font-size: 25px;
+    margin: 5px 2px 10px 10px;
+>>>>>>> 32aa876c3e97ed28bb740993f282ec00fe1dc80e
 }
