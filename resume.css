@@ -32,7 +32,7 @@ h5 {
 }
 
 h6 {
-
+    font-size: 15px;
 }
 
 p {
@@ -70,13 +70,13 @@ p {
 .IvyBorder {
 position:absolute;
 left: -200px;
-top: -150px;    
+top: -200px;    
 z-index: -1;
 }
 /*---------Content--------*/
 
 .top-container {
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 50px;
 }
 
