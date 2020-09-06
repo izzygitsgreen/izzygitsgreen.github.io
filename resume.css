@@ -179,7 +179,7 @@ div#frame a:hover.note {
 .box {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-    padding-top: 50px;
+    padding-top: 30px;
     }
     
 .box .text {
