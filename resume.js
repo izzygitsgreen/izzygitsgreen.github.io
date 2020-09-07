@@ -1,3 +1,5 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 (function() {
 
     var previewForm = document.getElementById('previewform');
@@ -115,3 +117,5 @@
         previewForm.style.display = 'block';
 
 })()
+
+
