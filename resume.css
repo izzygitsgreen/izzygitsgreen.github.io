@@ -210,12 +210,9 @@ div#frame a:hover.note {
 
 /*-------Footer---------*/
 
-.footer {
-    position: fixed;
-    right: 500px;
-    bottom: 0px;
-    width: 400px;
+#footer {
     text-align: center;
+    width: 100%;
 }
 
 .footer-icons {
