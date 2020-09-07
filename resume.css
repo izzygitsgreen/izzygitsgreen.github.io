@@ -33,12 +33,17 @@ h5 {
 
 h6 {
     font-size: 15px;
+
 }
 
 p {
     color: #00000;
     font-size: 10px;
     margin-top: 10px;
+}
+
+li {
+    font-family: 'Quicksand', sans-serif;
 }
 
 /*--------Navbar------------*/
@@ -68,11 +73,12 @@ p {
 }
 
 .IvyBorder {
-position:absolute;
-left: -200px;
-top: -200px;    
-z-index: -1;
+    position: absolute;
+    left: -200px;
+    top: -200px;
+    z-index: -1;
 }
+
 /*---------Content--------*/
 
 .top-container {
@@ -88,23 +94,26 @@ z-index: -1;
 .middle-container {
     margin-left: 150px;
     margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .job {
+    font-family: 'Quicksand', sans-serif;
     width: 80%;
     margin-bottom: 20px;
     width: 80%;
-    font-size: 11px;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 /*-------columns---------------*/
 
 .row {
-  display: flex;
+    display: flex;
 }
 
 .column {
-  flex: 50%;
+    flex: 50%;
 
 }
 
@@ -113,7 +122,7 @@ z-index: -1;
 div#frame {
     width: 500px;
     height: 500px;
- }   
+}
 
 .text {
     margin: 40px;
@@ -153,7 +162,7 @@ div#frame {
 }
 
 .sticky2 {
-     transform: rotate(-3.5deg);
+    transform: rotate(-3.5deg);
     -webkit-transform: rotate(-3.5deg);
     background-image: url("imgs/marble.jpg");
     background-size: 100%;
@@ -178,28 +187,31 @@ div#frame a:hover.note {
 
 .box {
     position: relative;
-    display: inline-block; /* Make the width of box same as image */
+    display: inline-block;
+    /* Make the width of box same as image */
     padding-top: 30px;
-    }
-    
+}
+
 .box .text {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
     left: 60;
-    right: 0;        
+    right: 0;
     text-align: left;
-    top: 25%; /* Adjust this value to move the positioned div up and down */
-    
-    font-family: Helvetica ,sans-serif;
+    top: 25%;
+    /* Adjust this value to move the positioned div up and down */
+
+    font-family: Helvetica, sans-serif;
     color: #fff;
-    width: 70%; /* Set the width of the positioned div */
+    width: 70%;
+    /* Set the width of the positioned div */
 }
 
 /*-------Footer---------*/
 
 .footer {
-    position:fixed;
+    position: fixed;
     right: 500px;
     bottom: 0px;
     width: 400px;
