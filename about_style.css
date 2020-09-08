@@ -73,11 +73,16 @@ hr {
 
 .description-words {
     margin-left: 175px;
-    margin-right: 275px;
+    width: 70%;
     margin-bottom: 40px;
     margin-top: 40px;
     color: #212529;
 
+}
+
+.palm {
+    float: right;
+    margin-top: -50px;
 }
 
 .plant2 {
