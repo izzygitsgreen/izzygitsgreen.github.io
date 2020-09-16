@@ -117,22 +117,14 @@ li {
 
 .job {
     font-family: 'Quicksand', sans-serif;
-    width: 80%;
     margin-bottom: 20px;
-    width: 80%;
+    width: 50%;
     font-size: 15px;
     line-height: 30px;
 }
 
-/*-------columns---------------*/
-
 .row {
     display: flex;
-}
-
-.column {
-    flex: 50%;
-
 }
 
 /*-------Bulletin Board---------*/
