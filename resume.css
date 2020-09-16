@@ -99,7 +99,7 @@ li {
 
 .top-wording {
     margin-left: 175px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     margin-top: 40px;
     width: 50%;
     color: #212529;
@@ -111,14 +111,14 @@ li {
 
 .middle-container {
     margin-left: 150px;
-    margin-top: -25px;
+    margin-top: 50px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .job {
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 20px;
-    width: 50%;
+    width: 60%;
     font-size: 15px;
     line-height: 30px;
 }
