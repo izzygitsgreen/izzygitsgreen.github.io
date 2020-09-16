@@ -106,6 +106,7 @@ hr {
     transform-origin: top left;
     transform: rotate(-90deg);
     padding-top: 10px;
+    padding-left: 100px;
     font-size: 20px;
 }
 
