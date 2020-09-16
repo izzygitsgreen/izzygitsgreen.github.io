@@ -106,6 +106,7 @@ hr {
     transform-origin: top left;
     transform: rotate(-90deg);
     padding-top: 10px;
+    margin-top: 200px;
     font-size: 20px;
 }
 
@@ -117,7 +118,7 @@ hr {
 #fs-frm label,
 #fs-frm #card-element:disabled {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   color: inherit;
   border: none;
   border-radius: 7px;
