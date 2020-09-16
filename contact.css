@@ -68,6 +68,7 @@ hr {
     margin-left: 175px;
     margin-right: 100px;
     margin-top: 80px;
+    margin-bottom: 40px;
     color: #212529;
 }
 
@@ -136,8 +137,8 @@ hr {
 #fs-frm legend,
 #fs-frm ::placeholder {
   font-size: 15px;
-  margin-bottom: .5rem;
-  padding-top: .2rem;
+  margin-bottom: 8px;
+  padding-top: 3.2px;
   display: flex;
   align-items: baseline;
 }
@@ -150,7 +151,7 @@ hr {
   border: 1px solid rgba(0,0,0,0.2);
   background-color: rgba(255,255,255,0.9);
   padding: .75em 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 #fs-frm input:focus,
 #fs-frm select:focus,
@@ -201,7 +202,7 @@ hr {
   appearance: checkbox;
   display: inline-block;
   width: auto;
-  margin: 0 .5em 0 0 !important;
+  margin: 0 8px 0 0 !important;
 }
 
 #fs-frm [type="radio"] {
