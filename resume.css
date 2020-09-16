@@ -16,7 +16,8 @@ h2 {
 
 
 h3 {
-    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4em;
     color: #212529;
 }
 
@@ -56,7 +57,7 @@ li {
 .navbar-custom .navbar-text {
     color: black;
     padding-left: 130px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* change the link color */
@@ -85,21 +86,27 @@ li {
     margin-top: 80px;
 }
 
+.plant2 {
+     float: left;
+    clear: left;
+    transform: rotate(180deg);
+    margin-top: -500px;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
 .top-wording {
     margin-left: 175px;
-    margin-right: 200px;
     margin-bottom: 150px;
     margin-top: 40px;
+    width: 50%;
     color: #212529;
 }
 
 .btn {
    margin-top: 30px;
-}
-
-.img {
-    float: left;
-    margin-right: 30px;
 }
 
 .middle-container {
@@ -231,3 +238,4 @@ div#frame a:hover.note {
     font-size: 25px;
     margin: 5px 2px 10px 10px;
 }
+
