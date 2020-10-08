@@ -119,6 +119,7 @@ hr {
 }*/
 
 /*Project Area*/
+
 .project-area {
     padding: 4rem 0;
 }
@@ -134,6 +135,14 @@ hr {
 .text-uppercase, .text-secondary {
     margin-left: 100px;
 } 
+
+.Morning-Brews {
+    border-radius: 45px;
+}
+
+.city {
+    border-radius: 45px;
+}
 
 .bottom-container {
     position: absolute;
