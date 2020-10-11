@@ -111,36 +111,31 @@ hr {
     font-size: 20px;
 }
 
-/*.middle-container {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-}*/
-
 /*Project Area*/
 
 .project-area {
-    padding: 4rem 0;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.button-group {
-    background: transparent;
-    border: none;
+.button-group button {
+    background:none;
+    border:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    padding:0;
+    cursor: pointer;
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
-    margin-left: 100px;
 }
-
+    
 .text-uppercase, .text-secondary {
     margin-left: 100px;
 } 
 
-.Morning-Brews {
-    border-radius: 45px;
-}
-
-.city {
+.portfolioPic {
     border-radius: 45px;
 }
 
