@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat", "serif";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  line-height:1.5;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.navlink {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+  z-index: 0;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.color-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.color-icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.card {
+  border-color: #ef8172;
+  border-width: thick;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 50px;
+  color: #fff;
+}
+
+#footer {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 50px;
+  background-color: #fff;
+}
+
+.footer-icons {
+font-size: 15px;
+margin: 5px 2px 10px 20px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+
+  }
+}
