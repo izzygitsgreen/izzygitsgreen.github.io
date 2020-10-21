@@ -112,7 +112,6 @@ hr {
 }
 
 /*Project Area*/
-
 .project-area {
     margin-top: 100px;
     margin-left: 200px;
@@ -130,6 +129,7 @@ hr {
     font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
 }
+
 
 .text-uppercase,
 .text-secondary {
