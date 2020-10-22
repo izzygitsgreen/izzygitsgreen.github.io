@@ -122,14 +122,15 @@ hr {
 
 .text-uppercase,
 .text-secondary {
-    margin: auto, 0;
+    margin-left: 100px;
 }
 
 .portfolioPic {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 45px;
+    border-radius: 30px;
+    padding-bottom: 10px;
 }
 
 .title-page {
@@ -168,7 +169,7 @@ hr {
     opacity: 0;
     transition: .5s ease;
     background-color: #323232;
-    border-radius: 45px;
+    border-radius: 30px;
 }
 
 .container:hover .overlay {
