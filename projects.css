@@ -118,8 +118,6 @@ hr {
     margin-right: 200px;
 }
 
-
-
 .text-uppercase,
 .text-secondary {
     margin-left: 100px;
@@ -135,6 +133,10 @@ hr {
 
 .title-page {
     padding-bottom: 100px;
+}
+
+.btn-outline-light {
+
 }
 
 .bottom-container {
