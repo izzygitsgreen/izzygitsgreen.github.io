@@ -30,15 +30,6 @@ p {
     margin-top: 10px;
 }
 
-hr {
-    width: 5%;
-    border-top: 5px dotted gray;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    padding-top: 150px;
-}
-
 /*--------Navbar------------*/
 ​ .navbar-custom {
     background-color: #fff;
@@ -111,7 +102,10 @@ hr {
     font-size: 20px;
 }
 
-/*Project Area*/
+.title-page {
+    padding-bottom: 100px;
+}
+
 .project-area {
     margin-top: 100px;
     margin-left: 200px;
@@ -120,7 +114,7 @@ hr {
 
 .text-uppercase,
 .text-secondary {
-    margin-left: 100px;
+    text-align-left;
 }
 
 .portfolioPic {
@@ -129,10 +123,6 @@ hr {
     height: 200px;
     border-radius: 30px;
     padding-bottom: 10px;
-}
-
-.title-page {
-    padding-bottom: 100px;
 }
 
 .bottom-container {
