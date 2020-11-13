@@ -1,0 +1,1 @@
+alert("Website design inspiration by Tonic | All photos from Unplash Artists.");

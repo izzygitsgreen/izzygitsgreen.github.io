@@ -1,0 +1,448 @@
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.navbar-brand,
+.nav-item {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+}
+
+.nav-item {
+    padding-left: 50px;
+    color: #000;
+}
+
+.navbar-brand {
+    letter-spacing: 10px;
+    padding-right: 500px;
+    color: #000;
+}
+
+.cover {
+    background-image: url(https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80);
+    background-size: cover;
+    height: 100vh;
+}
+
+.cover h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 20vh;
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    letter-spacing: 3px;
+}
+
+.cover h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+
+#section-1 {
+    background-color: #f5f5f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.first-section-text,
+.second-section-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+.first-section-text h3 {
+    font-family: 'Playfair Display', 'serif';
+    font-weight: 100;
+    padding-top: 15px;
+    color: #41444b;
+}
+
+.first-section-text h2 {
+    color: #41444b;
+}
+
+#section-2 {
+
+}
+
+.second-section-text h2 {
+    font-family: 'Playfair Display', 'serif';
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.btn-outline-dark {
+    margin-bottom: -50px;
+    font-size: 12px;
+    font-family: 'Libre Franklin', 'serif';
+    border-radius: 0px;
+    border-color: black;
+}
+
+.btn-outline-dark:hover {
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.btn-outline-secondary {
+    margin-left: 10px;
+}
+
+.section-3 {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.row-green {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column-green {
+    -ms-flex: 33.3%;
+    /* IE10 */
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 4px;
+}
+
+.column-green img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#section-4 {
+    background-color: #f5f5f1;
+    padding-bottom: 300px;
+    padding-top: 150px;
+}
+
+.fourth-section-text {
+    margin-left: 200px;
+    color: #41444b;
+}
+
+.fourth-section-text h2 {
+    font-style: italic;
+}
+
+.fourth-section-text h3 {
+    font-family: 'Playfair Display', 'serif';
+    margin-bottom: 20px;
+}
+
+.fourth-section-text p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.section4Pic {
+    float: right;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.about {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.carousel-caption {
+    margin-bottom: 100px;
+    font-family: 'Playfair Display', 'serif';
+}
+
+.carousel-caption p {
+    font-family: 'Libre Franklin', 'serif';
+    padding-top: 15px;
+    font-size: 12px;
+    width: 70%;
+}
+
+.fifth-section-text h2 {
+    text-align: center;
+    font-family: 'Playfair Display', 'serif';
+    color: #41444b;
+    font-size: 3em;
+    padding-bottom: 40px;
+}
+
+.sixth-section-text h2 {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Libre Franklin', 'serif';
+}
+
+.sixth-section-text h3 {
+    text-align: center;
+    font-family: 'Playfair Display', 'serif';
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.center {
+    margin-top: 50px;
+}
+
+.cover2 {
+    background-image: url(https://image.freepik.com/free-photo/black-marble-patterned-texture-background-marble-thailand-abstract-natural-marble-black-white-design_1253-917.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.sixth-section-text {
+    padding-top: 100px;
+    color: #fff;
+}
+
+.sixth-section-text h2 {
+    margin-left: 600px;
+    text-align: left;
+    margin-bottom: -50px;
+}
+
+.sixth-section-text h3 {
+    margin-left: 600px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 4em;
+}
+
+.sixth-section-text p {
+    margin-left: 600px;
+    width: 30%;
+    text-align: left;
+}
+
+.MoveThatButton {
+    margin-left: 600px;
+    margin-top: 30px;
+    border-color: white;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#section-7 {
+    text-align: center;
+}
+
+.seventh-section-text h2 {
+    font-size: 15px;
+    margin-bottom: -20px;
+    margin-top: 100px;
+    color: #41444b;
+}
+
+.seventh-section-text h3 {
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4em;
+}
+
+.seventh-section-text p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Libre Franklin', 'serif';
+    text-align: center;
+}
+
+.booking {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-8 {
+    background-color: #f5f5f1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    text-align: left;
+    color: #41444b;
+}
+
+.eigth-section-text h2 {
+    font-size: 20px;
+    margin-left: -110px;
+    margin-bottom: -40px;
+    margin-top: 150px;
+}
+
+.eigth-section-text h3 {
+    font-family: 'Playfair Display', sans-serif;
+    padding-bottom: 20px;
+    margin-left: 150px;
+    font-size: 5em;
+}
+
+.left-button {
+    margin-left: 150px;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.column-purple {
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.row-purple {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#section-9 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #41444b;
+}
+
+.row-red {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-red {
+    float: left;
+    width: 50%;
+}
+
+form {
+    padding-right: 75px;
+    margin-left: 200px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 1px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none
+}
+
+.ninth-section-text h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+
+.ninth-section-text p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.section-10 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    color: #41444b;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding-right: 30px;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.words1 {
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 25px;
+}
+
+.words1 h2 {
+    font-size: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 5px;
+    color: #898b8a;
+}
+
+.words1 h3 {
+    font-family: 'Playfair Display', sans-serif;
+    letter-spacing: 10px;
+}
+
+.words2 {
+    text-align: left;
+    padding-top: 70px;
+    margin-left: 25px;
+}
+
+.lowerNav {
+    font-size: 10px;
+    padding-top: 70px;
+    margin-left: 550px;
+    margin-top: -200px;
+}
+
+.bottom-nav-link {
+    margin-right: 70px;
+    color: #898b8a;
+}
+
+.column1 {
+    float: right;
+    width: 15%;
+}
+
+.row1 {
+    content: "";
+    clear: both;
+    display: table;
+}
