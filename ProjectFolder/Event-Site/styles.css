@@ -76,9 +76,18 @@ h3 {
     color: #41444b;
 }
 
-#section-2 {
-
+.col-sm-6 {
+    float: left;
+    width: 50%;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#section-2 {}
 
 .second-section-text h2 {
     font-family: 'Playfair Display', 'serif';
@@ -161,11 +170,7 @@ h3 {
     margin-bottom: 30px;
 }
 
-.section4Pic {
-    float: right;
-    margin-left: 50px;
-    margin-right: 100px;
-}
+
 
 .about {
     padding-left: 40px;
@@ -260,6 +265,7 @@ h3 {
 
 #section-7 {
     text-align: center;
+    padding-bottom: 150px;
 }
 
 .seventh-section-text h2 {
@@ -281,7 +287,6 @@ h3 {
     margin-left: 200px;
     margin-right: 200px;
     font-family: 'Libre Franklin', 'serif';
-    text-align: center;
 }
 
 .booking {
@@ -291,49 +296,45 @@ h3 {
     padding-bottom: 20px;
 }
 
+.container-fluid {
+    width: 100%;
+    margin-left:250px;
+    margin-right: 250px;
+}
+
 .section-8 {
     background-color: #f5f5f1;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-top: 100px;
-    text-align: left;
     color: #41444b;
+    text-align: center;
+}
+
+.eigth-section-text {
+    margin-left: 150px;
 }
 
 .eigth-section-text h2 {
     font-size: 20px;
-    margin-left: -110px;
-    margin-bottom: -40px;
-    margin-top: 150px;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .eigth-section-text h3 {
     font-family: 'Playfair Display', sans-serif;
-    padding-bottom: 20px;
-    margin-left: 150px;
-    font-size: 5em;
+    font-size: 3em;
 }
 
+.eigth-section-text p {
+    font-family: 'Playfair Display', sans-serif;
+} 
+
 .left-button {
-    margin-left: 150px;
     font-size: 12px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Libre Franklin', sans-serif;
-}
-
-.column-purple {
-    float: left;
-    width: 50%;
-    padding-right: 50px;
-}
-
-.row-purple {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #section-9 {
