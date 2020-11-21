@@ -183,13 +183,14 @@ h3 {
 .carousel-caption {
     margin-bottom: 100px;
     font-family: 'Playfair Display', 'serif';
+    text-align: center;
 }
 
 .carousel-caption p {
     font-family: 'Libre Franklin', 'serif';
     padding-top: 15px;
     font-size: 12px;
-    width: 70%;
+    width: 100%;
 }
 
 .fifth-section-text h2 {
