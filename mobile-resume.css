@@ -41,6 +41,10 @@ p {
   font-family:'Quicksand', sans-serif;
 }
 
+.colored-section, .white-section, h3 {
+  font-family:'Montserrat', sans-serif;
+}
+
 .white-section {
   background-color: #fff;
 }
@@ -102,7 +106,7 @@ div#frame {
     margin: 30px;
     font-size: 22px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #previewform {
@@ -157,7 +161,21 @@ div#frame a:hover.note {
     transform: scale(1.1);
 }
 
+/*-------Experience---------*/
+
+.job1, .job2, .job3, .job4, h4 {
+  font-family:'Montserrat', sans-serif;
+}
+
+.job1, .job2, .job3, .job4, li {
+  font-family:'Quicksand', sans-serif;
+}
+
 /*-------Education---------*/
+.education-text h6 {
+ font-family:'Montserrat', sans-serif;
+}
+
 
 /* Footer Section */
 .social-icon {
