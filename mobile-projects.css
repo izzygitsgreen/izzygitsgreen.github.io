@@ -82,6 +82,12 @@ p {
   padding: 3% 15% 7%;
 }
 
+.title-page h5 {
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
 /* Project Section */
 
 .text-uppercase,
