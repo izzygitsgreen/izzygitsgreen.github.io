@@ -13,10 +13,9 @@ p {
 }
 
 /* Headings */
-
 .big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
   line-height: 1.5;
   color: #212529;
 }
@@ -27,16 +26,18 @@ p {
 }
 
 /* Containers */
-
 .container-fluid{
   padding: 7% 15%;
 }
 
 /* Sections */
-
 .colored-section {
   background-color: #212529;
   color: #fff;
+}
+
+.colored-section h1 {
+  font-family:'Quicksand', sans-serif;
 }
 
 .white-section {
@@ -44,24 +45,24 @@ p {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
+  font-family: 'Quicksand', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 10px;
 }
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
 }
 
 /* Buttons */
@@ -70,7 +71,6 @@ p {
 }
 
 /* Title Section */
-
 #title {
   background-color: #fff;
   color: #212529;
@@ -82,7 +82,6 @@ p {
 }
 
 /* Title Image */
-
 .title-image {
   width: 80%;
   position: absolute;
@@ -91,13 +90,13 @@ p {
 }
 
 /* Features Section */
-
 #features {
   position: relative;
 }
 
 .feature-title {
   font-size: 1.5rem;
+  color: #bbbbbb;
 }
 
 .feature-box {
@@ -105,22 +104,20 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #59886b;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #8db596;
 }
 
 /* Footer Section */
-
-
 .social-icon {
   margin: 20px 10px;
 }
 
-.footer, .social-icon {
+.social-icon {
   color: black;
 }
 
