@@ -8,3 +8,4 @@ function closeModal() {
 
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
