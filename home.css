@@ -38,14 +38,31 @@ hr {
     border-bottom: 0;
 }
 
-.navbar-brand {
-  font-size: 2.5rem;
+
+/*--------Navbar------------*/
+​ .navbar-custom {
+    background-color: #fff;
 }
 
-.nav-link {
-  font-size: 15px;
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+    padding-left: 130px;
+    font-size: 20px;
 }
 
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    font-size: 15px;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #228B22;
+}
 /*---------Content--------*/
 .top-container {
     margin-left: 175px;
