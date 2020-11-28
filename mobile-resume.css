@@ -1,0 +1,180 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 15px;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.section-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #212529;
+  color: #fff;
+}
+
+.colored-section h1 {
+  font-family:'Quicksand', sans-serif;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-color: #fff;
+  color: #212529;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 100%;
+  position: absolute;
+  right: 20%;
+  padding-top: 20px;
+}
+
+/*-------Bulletin Board---------*/
+div#frame {
+    width: 500px;
+    height: 500px;
+    color: #000;
+}
+
+.text {
+    margin: 30px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+#previewform {
+    display: none;
+    text-align: center;
+}
+
+.strong {
+    color: #333;
+    background-color: #FAFFA6;
+    padding: 0.1em;
+}
+
+.note {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    float: left;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.sticky1 {
+    transform: rotate(3.5deg);
+    -webkit-transform: rotate(3.5deg);
+    -moz-transform: rotate(-3.5deg);
+    background-image: url("imgs/hexagon.jpg");
+    background-size: 100%;
+}
+
+.sticky2 {
+    transform: rotate(-3.5deg);
+    -webkit-transform: rotate(-3.5deg);
+    background-image: url("imgs/marble.jpg");
+    background-size: 100%;
+}
+
+.sticky3 {
+    transform: rotate(3.5deg);
+    -webkit-transform: rotate(3.5deg);
+    -moz-transform: rotate(3.5deg);
+    background-image: url("imgs/wood.jpg");
+    background-size: 100%;
+}
+
+div#frame a:hover.note {
+    border: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*-------Education---------*/
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon {
+  color: black;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
