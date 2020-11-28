@@ -10,18 +10,19 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #8f8f8f;
+  font-size: 15px;
 }
 
 /* Headings */
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.5;
   color: #212529;
 }
 
 .section-heading {
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.5;
 }
 
@@ -51,7 +52,7 @@ p {
 
 .navbar-brand {
   font-family: 'Quicksand', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -62,7 +63,7 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Buttons */
@@ -83,7 +84,7 @@ p {
 
 /* Title Image */
 .title-image {
-  width: 80%;
+  width: 100%;
   position: absolute;
   right: 20%;
   padding-top: 20px;
@@ -95,7 +96,7 @@ p {
 }
 
 .feature-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #bbbbbb;
 }
 
