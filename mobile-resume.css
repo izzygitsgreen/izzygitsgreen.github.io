@@ -95,6 +95,7 @@ div#frame {
     width: 500px;
     height: 500px;
     color: #000;
+    margin: auto;
 }
 
 .text {
