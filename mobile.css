@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #8f8f8f;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /* Headings */
@@ -102,8 +102,9 @@ p {
 }
 
 .feature-title {
+  font-family: "Montserrat", sans-serif;
   font-size: 4rem;
-  color: #bbbbbb;
+  color: #fff;
 }
 
 .feature-box {
