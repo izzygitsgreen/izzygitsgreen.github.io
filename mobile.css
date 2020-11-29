@@ -10,20 +10,25 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #8f8f8f;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* Headings */
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 6rem;
+  font-size: 8rem;
   line-height: 1.5;
   color: #212529;
 }
 
 .section-heading {
-  font-size: 4rem;
+  font-size: 6rem;
   line-height: 1.5;
+}
+
+.top-paragraph p {
+  color: #000;
+  padding-bottom: 30px;
 }
 
 /* Containers */
@@ -39,6 +44,7 @@ p {
 
 .colored-section h1 {
   font-family:'Quicksand', sans-serif;
+  font-size: 6rem;
 }
 
 .white-section {
@@ -63,7 +69,7 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 /* Buttons */
@@ -113,6 +119,10 @@ p {
   color: #8db596;
 }
 
+.white-section p {
+  color: black;
+}
+
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
@@ -130,6 +140,5 @@ p {
 
   .title-image {
     position: static;
-    transform: rotate(0);
   }
 }
