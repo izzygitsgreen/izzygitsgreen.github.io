@@ -58,7 +58,7 @@ p {
 
 .navbar-brand {
     font-family: 'Quicksand', sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -69,12 +69,7 @@ p {
 .nav-link {
     font-size: 1.2rem;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-}
-
-/* Buttons */
-.download-button {
-    margin: 5% 3% 5% 0;
+    font-size: 50px;
 }
 
 /* Title Section */
@@ -98,7 +93,7 @@ div#frame {
 
 .text {
     margin: 30px;
-    font-size: 32px;
+    font-size: 29px;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
@@ -175,17 +170,6 @@ li {
     font-family: 'Quicksand', sans-serif;
     text-align: left;
     font-size: 35px;
-}
-
-/*-------Education---------*/
-
-.education-text h6 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.education-text li {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
 }
 
 /*--------Education Timeline-----------*/
