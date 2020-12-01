@@ -102,6 +102,11 @@ p {
   margin: auto;
 }
 
+.PortfolioProject {
+    border-radius: 5px;
+    height: auto;
+}
+
 .row {
   margin: 8px -16px;
 }
@@ -115,7 +120,7 @@ p {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
 }
 
 /* Clear floats after rows */ 
@@ -138,6 +143,7 @@ p {
 .content p {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 12px;
 }
 
 .bottom-container {
