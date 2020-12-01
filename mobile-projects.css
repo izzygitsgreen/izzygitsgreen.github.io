@@ -80,60 +80,59 @@ p {
     padding: 3% 15% 7%;
 }
 
-.title-page h5 {
-    padding-bottom: 50px;
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.PortfolioProject {
+    border-radius: 5px;
+    height: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.content h3 {
+    padding-top: 20px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 4rem;
 }
 
-/* Project Section */
-.text-uppercase,
-.text-secondary {
-    text-align-left;
-}
-
-.portfolioPic {
-    display: block;
-    width: 70%;
-    height: 200px;
-    border-radius: 20px;
-    padding-bottom: 10px;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 71%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #323232;
-    border-radius: 30px;
-}
-
-.container:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
+.content p {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 12px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 /* Footer Section */
