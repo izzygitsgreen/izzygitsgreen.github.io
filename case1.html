@@ -4,16 +4,158 @@
 <head>
   <meta charset="UTF-8">
   <title>Welcome</title>
- 
- <!---Font Awesome---> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="welcome.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!---Render on Mobile--->
+    <script type="text/javascript">
+    <!--
+    if (screen.width <= 800) {
+    window.location = "mobile.html";
+    }
+    //-->
+    </script>
+
+<!----Font Awesome------>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="case1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
-<body>
+<!---------NAV----------->
+<nav class="navbar navbar-expand-sm navbar-custom">
+    <div class="navbar-brand"><b>Home</b></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
+        <i class="fa fa-bars fa-lg py-1 text-black"></i>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarCustom">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
+<body>
+  <h1>Case Study: American Airlines Landing Page Redesign</h1>
+    <div class="center-photo">
+        <img src="imgs/transPlant.png" alt="Finished Project" style="width:600px; height:400px" ;>
+    </div>
+    <h2><b>Title:</b> Redesign of American Airlines landing page for booking travel</h2>
+    <p><b>Problem:</b> How might we make it easier for customers to book travel on the American Airlines website?<br>
+    <b>The Project:</b> As a frequent flyer of American Airlines and avid user of their website, I redesigned the web 
+    experience for better usability and cleaner design with the goal of allowing users to book travel more quickly and with greater ease.<br>
+    <b>Duration:</b> 2 weeks<br>
+    <b>Methods:</b> User Personas, Competitive/Comparative Analysis, Wireframing, Prototyping, Visual Design<br>
+    <b>Tools:</b> Adobe XD, Miro, Canva<br>
+    <b>Context:</b>       Booking flights and hotels is always tedious due to the amount of dates and prices available, 
+    and the information on the current American Airlines landing page isn't helping to streamline the booking process and help users navigate to their desired destination faster.<br><br>  
+    I sought out to create a more streamlined booking process for American Airlines that minimized clutter and allowed users to book travel more easily using the site.<br></p>
+
+    <p><b>Research</b><br>
+    <b>Competitive Analysis:</b>
+    <ul>
+      <li>To begin, I compared the American Airlines landing page with that of it's competitor, Delta Airlines.  I also reviewed Airbnb's website because although it exists in a different vertical of the travel industry, it is known for it's clean design and ease of use</li>
+      <li>Market Research - include company logos here</li>
+    </ul>
+
+    <b>Target Audience/Persona</b><br>
+    <ul>
+      <li>Current users of the American Airlines website, as well as new users</li>
+      <li>Have to ensure this design is easy to understand for new users wanting to book travel</li>  
+      <li>There cannot be a disconnect between the current website and the website I will be designing since users are accustomed to the current site</li>
+    </ul></p>
+
+    <p><b>Example User Persona from Target Audience</b><br>
+    
+    -(picture of man here)-
+    
+    Name: Michael Smith
+    Age: 26
+    Occupation: Software Engineer
+    Location: San Francisco, CA
+    Marital Status: In Relationship<br> 
+    
+    <b>Goals:</b> 
+    <ul>
+      <li>He wishes booking was less tedious online</li>
+      <li>He wants more ease in booking multiple flights since he often books for his partner as well</li>
+      <li>He doesn't like the advertisements that are often not deals once he reads the fine print</li>
+      <li>He wishes American Airlines had a map feature where he can choose airlines based on price like Google Flights does (some competitors also have this)</li>
+    </ul>
+
+    <b>Key Insights:</b><br>
+    
+    (icon)
+    The most important components of flight booking to users are the price and the date/time factors.  These should be made clear on the landing page.
+    
+    (icon)
+    Users would like more flexible ways to explore dates and times of a variety of locations on this website.
+    
+    (icon)
+    Users do not like distracting advertisements, especially when they are for very limited dates/times, or have other strings attached that are not practical for users booking travel.
+    
+    (icon)
+    Most users book flights separately from hotels, so the focus here should be on the flight booking process.<br>
+
+  <b>Define</b>
+  <b>Problem Statement</b><br>
+    
+    The American Airlines landing page could benefit from better usability and cleaner design, in addition to less advertisements flashing at users during the booking process.  It also lacks an efficient way to explore additional locations and dates/times for travel, and diverts the user's attention away from the primary focus of booking flights due to the amount of information and other calls to action on the landing page.<br>
+    
+    (<u>Note</u>: In this project scope, I did not include accessibility as American Airlines is dedicated to making their website experience accessible, and guarantees that their current site meet all current laws and guidelines – including the W3C WCAG 2.0 guidelines.)
+
+    <b>Ideate</b>
+    <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_ld5ln8M=/?moveToViewport=-245,-461,712,459" frameBorder="0" scrolling="no" allowFullScreen></iframe><br>
+
+    <b>Low-fi</b>
+
+    (Insert images here)<br>
+
+    <b>Visual Design</b><br>
+    Type Face: Arial
+    Color Schemes:<br> 
+
+    <b>High-fi Wireframes---SHOW HERE (old versions)</b>
+
+<b>Key Changes:</b><br>
+<ul>
+  <li>The AA login/signup box was removed from the center of the page and is still located in the top right hand corner for users to sign up with</li> 
+  <li>The scrolling advertisements were moved lower into the "Today's Offers" section of the site to keep them all together and to minimize user distraction while booking</li> 
+  <li>A map of potential locations with dates and prices was added to the UI to help users find potential destinations to travel to</li> 
+  <li>Removed the "redeem miles" option because this should appear in the checkout process where users can choose to purchase with cash/credit or redeem their miles</li>
+  <li>I combined the "round trip" and "one way" options into an interactive toggle to save space and make it stand out more</li>
+</ul>
+
+<b>Iteration:</b><br>
+ -Show the final product embedded in the page (inside a computer desktop frame), and then highlight the features you changed one by one
+
+ Final Prototypes
+
+ Highlight the additional changes made and reasons (bullets)<br>
+
+<b>Retrospective:</b><br>
+Changes I would make in the future to get more accurate results...
+<ul>
+  <li>Increase the sample size of users interviewed</li>
+  <li>Examine data from American Airlines to determine which features on the site need to be accentuated because they have business impact</li>
+  <li>Get feedback from my final prototypes from a greater number of users</li>
+
+
+<!--------Bottom Area------------>
+            <div class="bottom-container">
+                <a href="https://www.instagram.com/isabellatighe/?hl=en"><i class="footer-icons fab fa-instagram"></i></a>
+                <a href="mailto:isabellajtighe@gmail.com"><i class="footer-icons fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/isabellatighe"><i class="footer-icons fab fa-linkedin"></i></a>
+                <p>Copyright ⓒ <span id="year"><span></p>
+            </div>
+            <script src="case1.js"></script>
 </body>
 
