@@ -29,6 +29,50 @@ p {
     color: #228B22;
 }
 
+.heading {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Finished-Project {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.second-heading {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.objectives {
+    margin-left: 250px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Design-Process {
+    display: block;
+    margin-left: 250px;
+    margin-right: 200px
+}
+
 .bottom-container {
     position: absolute;
     margin-left: auto;
