@@ -78,6 +78,10 @@ p {
     clear: both;
 }
 
+.before-after {
+text-align: center
+}
+
 .Design-Process {
     display: block;
     margin-left: 250px;
