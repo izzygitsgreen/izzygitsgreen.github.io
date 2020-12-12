@@ -30,9 +30,17 @@ p {
 }
 
 .heading {
+    font-family: 'Courgette', cursive;
+    display: block;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 60%;
+}
+
+.heading h2 {
+	font-size: 2em;
 }
 
 .Finished-Project {
@@ -43,9 +51,12 @@ p {
 }
 
 .second-heading {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: block;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: auto;
+    width: 80%;
 }
 
 .objectives {
