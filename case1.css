@@ -54,6 +54,31 @@ p {
     padding-bottom: 50px;
 }
 
+.before-after {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.before-after h2 {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .second-heading {
     padding-top: 100px;
     padding-bottom: 30px;
@@ -82,8 +107,9 @@ p {
     clear: both;
 }
 
-.before-after {
-    text-align: center
+.context {
+	padding-top: 50px;
+	text-align: center;
 }
 
 .competitive-analysis {
@@ -160,44 +186,52 @@ p {
 }
 
 .hifi-wireframes {
-	display: block;
+    display: block;
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
 }
 
 .hifi-wireframes h4 {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .iteration {
-	display: block;
+    display: block;
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
 }
 
-/*.final-design {
-	display: block;
-    margin-left: 200px;
-    margin-right: 100px;
-    padding-top: 50px;
-}*/
-
 .final-design {
-	padding-top: 100px;
+    padding-top: 100px;
 }
 
 .final-design h1 {
-	display: block;
-	margin-left: 300px;
-	margin-right: 200px;
-	padding-bottom: 30px;
+    display: block;
+    margin-left: 300px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+}
+
+.final-design-text {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.retrospective {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
 }
 
 .final-wireframe-image {
-	display: block;
-	margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .bottom-container {
