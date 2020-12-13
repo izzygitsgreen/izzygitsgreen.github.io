@@ -1,5 +1,5 @@
 body {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 p {
@@ -93,28 +93,111 @@ p {
 }
 
 .competitive-analysis h1 {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .competitive-analysis h2 {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .UserPersonaSection {
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.UserPersonaSection h1 {
+    padding-bottom: 30px;
 }
 
 .problem-statement {
-	display: block;
+    display: block;
     margin-left: 200px;
-    margin-right: 100px
+    margin-right: 100px;
 }
 
 .ideate {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.Miro {
     padding-top: 50px;
     text-align: center;
+}
+
+.lowfi-wireframes {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.Low-Fi {
+    text-align: center;
+}
+
+.visual-design {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.visual-design h4 {
+    font-size: 20px;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+
+.hifi-wireframes {
+	display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.hifi-wireframes h4 {
+	font-size: 20px;
+}
+
+.iteration {
+	display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+/*.final-design {
+	display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px;
+}*/
+
+.final-design {
+	padding-top: 100px;
+}
+
+.final-design h1 {
+	display: block;
+	margin-left: 300px;
+	margin-right: 200px;
+	padding-bottom: 30px;
+}
+
+.final-wireframe-image {
+	display: block;
+	margin: auto;
 }
 
 .bottom-container {
@@ -132,9 +215,10 @@ p {
     color: #212529;
     margin: 10px 5px 10px 5px;
 }
+
 /*----Media Queries------*/
 @media screen and (max-width: 800px) {
-  .column {
-    width: 100%;
-  }
+    .column {
+        width: 100%;
+    }
 }
