@@ -102,6 +102,19 @@ p {
 
 .UserPersonaSection {
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.problem-statement {
+	display: block;
+    margin-left: 200px;
+    margin-right: 100px
+}
+
+.ideate {
+    padding-top: 50px;
+    text-align: center;
 }
 
 .bottom-container {
