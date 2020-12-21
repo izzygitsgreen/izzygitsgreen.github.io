@@ -1,0 +1,517 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 9px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.rectangle {
+    height: 655px;
+    width: 700px;
+    background-color: #000;
+    transform: rotate(90deg);
+    position: relative;
+    left: -300px;
+    top: 30px;
+    z-index: -1;
+}
+
+.ProPic {
+    margin-top: -650px;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    padding: 50px;
+}
+
+.circle {
+    height: 250px;
+    width: 250px;
+    border-style: dashed;
+    border-color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 875px;
+    top: 425px;
+    z-index: -2;
+}
+
+.circle2 {
+    height: 250px;
+    width: 250px;
+    border-style: dashed;
+    border-color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 525px;
+    top: -150px;
+    z-index: -2;
+}
+
+.circle3 {
+    height: 250px;
+    width: 250px;
+    border-style: dashed;
+    border-color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.circle4 {
+    height: 150px;
+    width: 150px;
+    border-style: dashed;
+    border-color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 175px;
+    margin-bottom: 20px;
+    margin-top: -125px;
+}
+
+.circle5 {
+    height: 200px;
+    width: 200px;
+    border-style: dashed;
+    border-color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 900px;
+    margin-top: -150px;
+}
+
+.circle6 {
+    height: 200px;
+    width: 200px;
+    border-style: dashed;
+    border-color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.sideName h3 {
+    font-size: 40px;
+    font-family: 'Homemade Apple', cursive;
+    position: absolute;
+    left: -180px;
+    top: 350px;
+    transform: rotate(270deg);
+    z-index: 1;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.myDescription h1 {
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+    position: absolute;
+    left: 625px;
+    top: 175px;
+}
+
+.fa-long-arrow-alt-down {
+    margin-top: 20px;
+}
+
+.info-section {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.info-section-text h2 {
+    font-family: 'Bitter', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column2 {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    background-color: #e7e0d0;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block h4 {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.text-block p {
+    text-align: center;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7e0d0;
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.text h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 25px;
+    font-family: 'Homemade Apple', cursive;
+    margin-top: -30px;
+}
+
+/* Clear floats after image containers */
+.section-fun {
+    background-color: #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.section-fun h2 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.section-fun-text {
+    color: #fff;
+    display: block;
+    margin-top: -115px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+}
+
+/*-------Bulletin Board---------*/
+
+div#frame {
+    width: 600px;
+    height: 500px;
+}
+
+#previewform {
+    display: none;
+}
+
+.strong {
+    padding: 0.1em;
+}
+
+.note {
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    float: left;
+    margin: 8px;
+    border-radius: 25px;
+}
+
+.sticky1 {
+    background-image: url("imgs/C&CLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky2 {
+    background-image: url("imgs/ideo-logo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky3 {
+    background-image: url("imgs/DBLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky4 {
+    background-image: url("imgs/TEGLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky5 {
+    background-image: url("imgs/TTLogo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky6 {
+    background-image: url("imgs/PodcastLogo.webp");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky7 {
+    background-image: url("imgs/WSJLogo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky8 {
+    background-image: url("imgs/AdobeLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky9 {
+    background-image: url("imgs/Pinterest-Logo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky10 {
+    background-image: url("imgs/FFLogo.webp");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky11 {
+    background-image: url("imgs/MediumLogo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky12 {
+    background-image: url("imgs/linkedin-icon.webp");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+div#frame a:hover.note {
+    border: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*---------------------------*/
+
+#bottom-container {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-icons {
+    font-size: 20px;
+    color: #212529;
+    margin: 10px 5px 10px 5px;
+}
+
+/*----Works for 3 column layout in section 2----*/
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*----Lowers side wording to show the nav bar----*/
+@media screen and (max-width: 1000px) {
+    .sideName h3 {
+        margin-top: 100px;
+    }
+}
+
+/*----Makes the overlay text responsive to screen size 1000----*/
+@media screen and (max-width: 1000px) {
+    .text p {
+        font-size: 10px;
+    }
+
+    .text h2 {
+        font-size: 10px;
+    }
+
+    .text h3 {
+        font-size: 15px;
+        font-family: 'Homemade Apple', cursive;
+        margin-top: -30px;
+    }
+}
+
+/*----Makes the overlay text responsive to screen size 700----*/
+@media screen and (max-width: 700px) {
+    .text p {
+        font-size: 7px;
+    }
+
+    .text h2 {
+        font-size: 8px;
+    }
+
+    .text h3 {
+        font-size: 8px;
+
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #frame {
+        margin-left: -200px;
+    }
+
+    .section-fun-text h2 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #frame {
+        margin-left: -300px;
+    }
+
+    .section-fun-text h2 {
+        margin-top: 50px;
+        margin-left: -100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .text-block h4 {
+        margin-left: -50px;
+    }
+
+    .text-block p {
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .text-block h4 {
+        margin-left: -75px;
+        margin-bottom: -5px;
+    }
+
+    .text-block p {
+        margin-left: -100px;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text-block h4 {
+        margin-left: -85px;
+        margin-bottom: -250px;
+    }
+
+    .text-block p {
+        display: none;
+    }
+}
