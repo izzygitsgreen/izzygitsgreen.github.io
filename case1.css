@@ -18,7 +18,7 @@ p {
 .navbar-custom .navbar-text {
     color: black;
     padding-left: 130px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* change the link color */
@@ -36,15 +36,28 @@ p {
 .heading {
     font-family: 'Courgette', cursive;
     display: block;
-    text-align: center;
+    text-align: left;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 5px;
     padding-bottom: 50px;
-    width: 60%;
+    width: 50%;
 }
 
 .heading h2 {
     font-size: 2em;
+}
+
+.column-head {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row-head::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .Finished-Project {
@@ -56,25 +69,25 @@ p {
 
 .before-after {
     display: block;
-text-align: center;
+    text-align: center;
 
 }
 
 .before-after h1 {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .column1 {
-  float: left;
-  width: 50%;
-  padding: 5px;
+    float: left;
+    width: 50%;
+    padding: 5px;
 }
 
 /* Clearfix (clear floats) */
 .row1::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .second-heading {
@@ -106,17 +119,17 @@ text-align: center;
 }
 
 .context {
-	padding-top: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .context h3 {
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .context p {
-	text-align: left;
+    text-align: left;
 }
 
 .competitive-analysis {
@@ -211,6 +224,10 @@ text-align: center;
     padding-top: 50px;
 }
 
+.iFrameStyle {
+    margin-left: 50px;
+}
+
 .final-design {
     padding-top: 100px;
 }
@@ -234,7 +251,6 @@ text-align: center;
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
-}
 }
 
 .final-wireframe-image {
