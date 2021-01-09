@@ -36,28 +36,11 @@ p {
 .heading {
     font-family: 'Courgette', cursive;
     display: block;
-    text-align: left;
+    text-align: center;
     margin: auto;
     padding-top: 5px;
     padding-bottom: 50px;
     width: 50%;
-}
-
-.heading h2 {
-    font-size: 2em;
-}
-
-.column-head {
-    float: left;
-    width: 50%;
-    padding: 0px;
-}
-
-/* Clearfix (clear floats) */
-.row-head::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 .Finished-Project {
