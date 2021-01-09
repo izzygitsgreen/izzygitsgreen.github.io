@@ -322,6 +322,17 @@ p {
     padding-bottom: 30px;
 }
 
+.icon-process {
+    margin-top: 350px;
+    text-align: center;
+}
+
+.process h1 {
+        text-align: center;
+    color: #e8c5e0;
+    font-size: 45px;
+}
+
 .problem-statement {
     display: block;
     margin-left: 200px;
