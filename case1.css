@@ -190,6 +190,65 @@ p {
     padding-bottom: 50px;
 }
 
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.grid-container p {
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 10px 0;
+  font-size: 15px;
+
+}
+
+.UserPersonaSection h1 {
+    color: #e8c5e0;
+}
+
+.user-interviews h1 {
+    color: #e8c5e0;
+}
+
+.persona {
+    margin-left: 50px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card {
+    margin-left: 125px;
+}
+
+.rectangle {
+    margin-top: -600px;
+    position: relative;
+    z-index: -1;
+}
+
 .UserPersonaSection {
     text-align: center;
     padding-top: 50px;
