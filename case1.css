@@ -115,6 +115,10 @@ p {
     padding-bottom: 50px;
 }
 
+.prototype {
+    text-align: center;
+}
+
 .before-after {
     display: block;
     text-align: center;
@@ -179,7 +183,7 @@ p {
 
 .competitive-analysis h1 {
     padding-bottom: 50px;
-    color: #FDC268;
+    color: #e8c5e0;
 }
 
 .competitive-analysis h2 {
