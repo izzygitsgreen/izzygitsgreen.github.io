@@ -190,11 +190,11 @@ p {
     padding-bottom: 50px;
 }
 
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item1 { grid-area: header;}
+.item2 { grid-area: menu;}
+.item3 { grid-area: main;}
+.item4 { grid-area: right;}
+.item5 { grid-area: footer;}
 
 .grid-container {
   display: grid;
@@ -203,10 +203,15 @@ p {
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: none;
   padding: 10px;
   margin-left: 125px;
   margin-right: 125px;
+}
+
+.grid-container h4 {
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 .grid-container p {
@@ -224,6 +229,7 @@ p {
 }
 
 .UserPersonaSection h1 {
+    margin-bottom: 50px;
     color: #e8c5e0;
 }
 
@@ -232,7 +238,7 @@ p {
 }
 
 .persona {
-    margin-left: 50px;
+    margin-left: 15px;
 }
 
 .card-img-top {
@@ -244,7 +250,7 @@ p {
 }
 
 .rectangle {
-    margin-top: -600px;
+    margin-top: -550px;
     position: relative;
     z-index: -1;
 }
