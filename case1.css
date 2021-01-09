@@ -91,6 +91,32 @@ p {
     margin-top: -55px;
 }
 
+.circle5 {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #e8c5e0;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-left: 800px;
+    margin-top: -75px;
+}
+
+.circle6 {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #539FCF;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-left: 750px;
+    margin-top: -105px;
+}
+
+
+
 .heading {
     font-family: 'Courgette', cursive;
     display: block;
@@ -225,15 +251,41 @@ p {
   text-align: left;
   padding: 10px 0;
   font-size: 15px;
-
 }
 
 .UserPersonaSection h1 {
     color: #e8c5e0;
 }
 
+.user-interviews {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .user-interviews h1 {
+    text-align: center;
     color: #e8c5e0;
+    font-size: 45px;
+}
+
+.user-interviews p {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bullets {
+    margin-top: -100px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.bullets li {
+    font-size: 25px;
 }
 
 .persona {
