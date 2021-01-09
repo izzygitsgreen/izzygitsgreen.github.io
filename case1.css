@@ -30,7 +30,65 @@ p {
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #228B22;
+    color: #539FCF;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #e8c5e0;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+.circle2 {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #539FCF;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-top: -75px;
+    margin-left: 50px;
+}
+
+
+.title {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+.circle3 {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #e8c5e0;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 1025px;
+    margin-top: -40px;
+}
+
+.circle4 {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #539FCF;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-left: 1075px;
+    margin-top: -55px;
 }
 
 .heading {
@@ -38,9 +96,16 @@ p {
     display: block;
     text-align: center;
     margin: auto;
-    padding-top: 5px;
     padding-bottom: 50px;
     width: 50%;
+    margin-top: -50px;
+}
+
+.blob {
+    position:relative;
+    margin-top: -300px;
+    opacity: 0.75;
+    z-index: -1;
 }
 
 .Finished-Project {
@@ -71,15 +136,6 @@ p {
     content: "";
     clear: both;
     display: table;
-}
-
-.second-heading {
-    padding-top: 100px;
-    padding-bottom: 30px;
-    display: block;
-    text-align: center;
-    margin: auto;
-    width: 80%;
 }
 
 .objectives {
