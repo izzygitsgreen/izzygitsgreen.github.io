@@ -56,17 +56,6 @@ p {
     margin-left: 50px;
 }
 
-
-.title {
-    padding-top: 0px;
-    padding-bottom: 30px;
-    display: block;
-    text-align: center;
-    margin: auto;
-    width: 80%;
-}
-
-
 .circle3 {
     height: 100px;
     width: 100px;
@@ -139,6 +128,14 @@ p {
     margin-top: -105px;
 }
 
+.title {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
 
 .heading {
     font-family: 'Courgette', cursive;
@@ -151,7 +148,7 @@ p {
 }
 
 .blob {
-    position:relative;
+    position: relative;
     margin-top: -300px;
     opacity: 0.75;
     z-index: -1;
@@ -225,37 +222,64 @@ p {
 }
 
 .competitive-analysis {
-    display: block;
-    margin-left: 200px;
-    margin-right: 100px
+    width: 100%;
 }
 
 .competitive-analysis h1 {
     padding-bottom: 50px;
     color: #e8c5e0;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.competitive-analysis h2 {
+.competitive-analysis h3 {
     padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.item1 { grid-area: header;}
-.item2 { grid-area: menu;}
-.item3 { grid-area: main;}
-.item4 { grid-area: right;}
-.item5 { grid-area: footer;}
+.competitive-analysis ul {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.Competitors {
+    margin-left: 100px;
+    padding: 2px;
+    border:2px solid: #e8c5e0;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item4 {
+    grid-area: right;
+}
+
+.item5 {
+    grid-area: footer;
+}
 
 .grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: none;
-  padding: 10px;
-  margin-left: 125px;
-  margin-right: 125px;
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: none;
+    padding: 10px;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 
 .grid-container h4 {
@@ -269,11 +293,11 @@ p {
 
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
-  padding: 10px 0;
-  font-size: 15px;
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 10px 0;
+    font-size: 15px;
 }
 
 .UserPersonaSection h1 {
@@ -437,7 +461,7 @@ p {
     display: block;
     margin-left: 200px;
     margin-right: 100px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .wireframe-summary ul {
@@ -452,7 +476,7 @@ p {
 }
 
 .iteration li {
-font-size: 18px;
+    font-size: 18px;
 }
 
 .iFrameStyle {
