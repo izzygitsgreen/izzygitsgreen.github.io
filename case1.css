@@ -115,6 +115,29 @@ p {
     margin-top: -105px;
 }
 
+.circle7 {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #e8c5e0;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-left: 700px;
+    margin-top: -175px;
+}
+
+.circle8 {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #539FCF;
+    opacity: 0.25;
+    border-radius: 50%;
+    margin-left: 650px;
+    margin-top: -105px;
+}
 
 
 .heading {
@@ -328,7 +351,7 @@ p {
 }
 
 .process h1 {
-        text-align: center;
+    text-align: center;
     color: #e8c5e0;
     font-size: 45px;
 }
@@ -347,8 +370,9 @@ p {
 }
 
 .Miro {
-    padding-top: 50px;
-    text-align: center;
+    padding-top: 25px;
+    display: block;
+    margin: auto;
 }
 
 .lowfi-wireframes {
@@ -358,8 +382,14 @@ p {
     padding-top: 50px;
 }
 
+.lowfi-wireframes h4 {
+    margin-left: 200px;
+    padding-top: 15px;
+}
+
 .Low-Fi {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .visual-design {
