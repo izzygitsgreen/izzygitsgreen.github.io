@@ -424,6 +424,23 @@ p {
 }
 
 .hifi-wireframes h4 {
+    font-size: 30px;
+    margin-left: 175px;
+}
+
+.HiFi-Photo {
+    display: block;
+    margin: auto;
+}
+
+.wireframe-summary {
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 50px; 
+}
+
+.wireframe-summary ul {
     font-size: 20px;
 }
 
@@ -432,6 +449,10 @@ p {
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
+}
+
+.iteration li {
+font-size: 18px;
 }
 
 .iFrameStyle {
@@ -456,11 +477,23 @@ p {
     padding-top: 50px;
 }
 
+.final-design-text li {
+    font-size: 18px;
+}
+
 .retrospective {
     display: block;
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
+}
+
+.retrospective h1 {
+    color: #e8c5e0;
+}
+
+.retrospective li {
+    font-size: 18px;
 }
 
 .final-wireframe-image {
