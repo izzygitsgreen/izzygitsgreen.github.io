@@ -33,101 +33,6 @@ p {
     color: #539FCF;
 }
 
-.circle {
-    height: 150px;
-    width: 150px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #e8c5e0;
-    opacity: 0.5;
-    border-radius: 50%;
-    margin-left: -50px;
-}
-
-.circle2 {
-    height: 100px;
-    width: 100px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #539FCF;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-top: -75px;
-    margin-left: 50px;
-}
-
-.circle3 {
-    height: 100px;
-    width: 100px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #e8c5e0;
-    opacity: 0.5;
-    border-radius: 50%;
-    margin-left: 1025px;
-    margin-top: -40px;
-}
-
-.circle4 {
-    height: 150px;
-    width: 150px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #539FCF;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-left: 1075px;
-    margin-top: -55px;
-}
-
-.circle5 {
-    height: 150px;
-    width: 150px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #e8c5e0;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-left: 800px;
-    margin-top: -75px;
-}
-
-.circle6 {
-    height: 100px;
-    width: 100px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #539FCF;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-left: 750px;
-    margin-top: -105px;
-}
-
-.circle7 {
-    height: 200px;
-    width: 200px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #e8c5e0;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-left: 700px;
-    margin-top: -175px;
-}
-
-.circle8 {
-    height: 150px;
-    width: 150px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #539FCF;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-left: 650px;
-    margin-top: -105px;
-}
-
 .title {
     padding-top: 0px;
     padding-bottom: 30px;
@@ -214,32 +119,35 @@ p {
     text-align: left;
 }
 
-.competitive-analysis {
-    width: 100%;
+.user-survey {
+    margin: 50px;
 }
 
-.competitive-analysis h1 {
+.user-survey h1 {
     padding-bottom: 50px;
     color: #e8c5e0;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.competitive-analysis h3 {
+.user-survey h3 {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.competitive-analysis ul {
+.user-survey h4 {
+    margin-bottom:25px;
+}
+
+.user-survey ul {
     margin-bottom: 50px;
     font-size: 20px;
 }
 
+
 .Competitors {
-    margin-left: 100px;
-    padding: 2px;
-    border:2px solid: #e8c5e0;
+    margin-left: -35px;
 }
 
 .item1 {
