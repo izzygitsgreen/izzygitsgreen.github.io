@@ -112,6 +112,41 @@ p {
     text-align: left;
 }
 
+.column3 {
+  float: left;
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.market-research h1 {
+    padding-bottom: 50px;
+    color: #e8c5e0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.market-research h3 {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.market-research ul {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.market-research p {
+    margin-left: 45px;
+}
+
 .user-survey {
     margin: 50px;
 }
@@ -356,6 +391,10 @@ p {
     font-size: 18px;
 }
 
+.changes {
+
+}
+
 .iFrameStyle {
     margin-left: 50px;
 }
@@ -423,4 +462,11 @@ p {
     .column {
         width: 100%;
     }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
