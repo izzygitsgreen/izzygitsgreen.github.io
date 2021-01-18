@@ -236,7 +236,7 @@ p {
 }
 
 .persona {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .card-img-top {
@@ -248,13 +248,13 @@ p {
 }
 
 .rectangle {
-    margin-top: -525px;
+    margin-top: -625px;
     position: relative;
     z-index: -1;
 }
 
 .rectangle2 {
-    margin-top: -550px;
+    margin-top: -625px;
     position: relative;
     z-index: -1;
 }
