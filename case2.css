@@ -34,8 +34,8 @@ p {
 }
 
 .title {
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding-top: 75px;
+    padding-bottom: 50px;
     display: block;
     text-align: center;
     margin: auto;
@@ -48,8 +48,7 @@ p {
     text-align: center;
     margin: auto;
     padding-bottom: 50px;
-    width: 50%;
-    margin-top: -50px;
+    width: 60%;
 }
 
 .Finished-Project {
@@ -137,7 +136,7 @@ p {
 }
 
 .user-survey h4 {
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
 .user-survey ul {
@@ -270,15 +269,11 @@ p {
     padding-bottom: 30px;
 }
 
-.icon-process {
-    margin-top: 350px;
-    text-align: center;
-}
-
 .process h1 {
     text-align: center;
     color: #e8c5e0;
     font-size: 45px;
+    margin-bottom: 50px;
 }
 
 .problem-statement {
@@ -361,17 +356,6 @@ p {
 .HiFi-Photo {
     display: block;
     margin: auto;
-}
-
-.wireframe-summary {
-    display: block;
-    margin-left: 200px;
-    margin-right: 100px;
-    padding-top: 50px;
-}
-
-.wireframe-summary ul {
-    font-size: 20px;
 }
 
 .iteration {
