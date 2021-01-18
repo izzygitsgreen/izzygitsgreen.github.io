@@ -34,6 +34,7 @@ p {
 }
 
 .title {
+    font-family: 'Ubuntu', sans-serif;
     padding-top: 75px;
     padding-bottom: 50px;
     display: block;
@@ -59,17 +60,8 @@ p {
 }
 
 .prototype {
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
-}
-
-.before-after {
-    display: block;
-    text-align: center;
-
-}
-
-.before-after h1 {
-    margin-bottom: 50px;
 }
 
 .column1 {
@@ -86,6 +78,7 @@ p {
 }
 
 .objectives {
+    font-family: 'Source Sans Pro', 'sans-serif';
     margin-left: 250px;
     margin-right: 200px;
     padding-bottom: 50px;
@@ -105,6 +98,7 @@ p {
 }
 
 .context {
+    font-family: 'Sans Source Pro', sans-serif;
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -222,21 +216,10 @@ p {
 
 .user-interviews p {
     font-size: 25px;
-    font-style: italic;
     text-align: center;
     margin-top: 25px;
     margin-left: 100px;
     margin-right: 100px;
-}
-
-.bullets {
-    margin-top: -100px;
-    margin-left: 200px;
-    margin-right: 100px;
-}
-
-.bullets li {
-    font-size: 25px;
 }
 
 .persona {
