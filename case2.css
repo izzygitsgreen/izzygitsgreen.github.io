@@ -432,18 +432,6 @@ p {
 .final-design h1 {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-
-}
-
-.final-design-text {
-    display: block;
-    margin-left: 200px;
-    margin-right: 100px;
-    padding-top: 50px;
-}
-
-.final-design-text li {
-    font-size: 18px;
 }
 
 .retrospective {
@@ -491,3 +479,4 @@ p {
         width: 100%;
     }
 }
+
