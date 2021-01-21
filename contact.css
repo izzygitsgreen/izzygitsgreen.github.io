@@ -102,15 +102,6 @@ hr {
     margin-top: 30px;
 }
 
-.trial-word {
-    position: fixed;
-    transform-origin: top left;
-    transform: rotate(-90deg);
-    padding-top: 10px;
-    margin-top: 200px;
-    font-size: 20px;
-}
-
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -218,11 +209,11 @@ form {
 
 footer {
     text-align: center;
-    margin-top: auto;
+    margin-top: 50px;
 }
 
 .footer-icons {
-    font-size: 25px;
+    font-size: 20px;
     color: #212529;
     margin: 10px 5px 10px 5px;
 }
