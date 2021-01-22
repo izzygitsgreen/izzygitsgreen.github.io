@@ -146,6 +146,14 @@ p {
     font-size: 12px;
 }
 
+.wide-content {
+  text-align: center;
+}
+
+.wide-PortfolioProject {
+  margin-bottom: 25px;
+}
+
 #bottom-container {
     text-align: center;
 }
