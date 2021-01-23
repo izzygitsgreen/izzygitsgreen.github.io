@@ -31,6 +31,7 @@ p {
 }
 
 .top-paragraph h3 {
+    font-family:  'Bitter', serif;
     color: #000;
     padding-bottom: 30px;
     font-size: 35px;
@@ -62,9 +63,8 @@ p {
 }
 
 .navbar-brand {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', serif;
     font-size: 4rem;
-    font-weight: bold;
 }
 
 .nav-item {
@@ -109,6 +109,10 @@ p {
     color: #fff;
 }
 
+.container-fluid h1 {
+    font-family: 'Bitter', serif;
+}
+
 .container-fluid h4 {
     font-family: 'Homemade Apple', cursive;
     font-size: 50px;
@@ -116,6 +120,7 @@ p {
 
 .feature-box {
     padding: 4.5%;
+    font-family: 'Bitter', serif;
 }
 
 .icon {
@@ -127,10 +132,152 @@ p {
     color: #8db596;
 }
 
+.section-fun {
+    padding-top: 25px;
+    margin-left: 200px;
+}
+
+.section-fun-text h1 {
+    font-family: 'Bitter', serif;
+    font-style: bold;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:50px;
+    font-size: 50px;
+}
+
+/*-------Bulletin Board---------*/
+
+div#frame {
+    width: 600px;
+    height: 500px;
+}
+
+#previewform {
+    display: none;
+}
+
+.strong {
+    padding: 0.1em;
+}
+
+.note {
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    float: left;
+    margin: 8px;
+    border-radius: 25px;
+}
+
+.sticky1 {
+    background-image: url("imgs/C&CLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky2 {
+    background-image: url("imgs/ideo-logo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky3 {
+    background-image: url("imgs/DBLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky4 {
+    background-image: url("imgs/TEGLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky5 {
+    background-image: url("imgs/TTLogo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky6 {
+    background-image: url("imgs/PodcastLogo.webp");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky7 {
+    background-image: url("imgs/WSJLogo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky8 {
+    background-image: url("imgs/AdobeLogo.jpg");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky9 {
+    background-image: url("imgs/Pinterest-Logo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky10 {
+    background-image: url("imgs/FFLogo.webp");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky11 {
+    background-image: url("imgs/MediumLogo.png");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.sticky12 {
+    background-image: url("imgs/linkedin-icon.webp");
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+div#frame a:hover.note {
+    border: 1px solid rgba(0, 0, 0, 0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 /* Footer Section */
 footer {
     text-align: center;
-    margin-top: 50px;
 }
 
 footer p {
