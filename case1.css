@@ -188,13 +188,27 @@ p {
     text-align: left;
 }
 
-.competitive-analysis {
-    width: 100%;
+.user-research {
+    margin-bottom: 50px;    
 }
 
-.competitive-analysis h1 {
-    padding-bottom: 50px;
-    color: #e8c5e0;
+
+.user-research h3 {
+    padding-left: 100px;
+}
+
+.research {
+    padding-left: 100px;
+    padding-top: 25px;
+    text-align: left;
+    padding-right: 100px;
+}
+
+.research li {
+    width: 80%;
+}
+
+.competitive-analysis p {
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -214,6 +228,10 @@ p {
     margin-left: 100px;
     padding: 2px;
     border:2px solid: #e8c5e0;
+}
+
+.SurveyResults {
+    margin-left: 100px;
 }
 
 .item1 {
@@ -260,7 +278,6 @@ p {
 .grid-container p {
     font-size: 12px;
     margin-left: 10px;
-
 }
 
 .grid-container>div {
@@ -270,27 +287,20 @@ p {
     font-size: 15px;
 }
 
-.UserPersonaSection h1 {
-    color: #e8c5e0;
-}
-
 .user-interviews {
     display: block;
     margin: auto;
     margin-top: 50px;
 }
 
-.user-interviews h1 {
-    text-align: center;
-    color: #e8c5e0;
-    font-size: 45px;
+.user-interviews h3 {
+    text-align: left;
+    margin-left: 100px;
 }
 
 .user-interviews p {
-    font-size: 25px;
-    font-style: italic;
-    text-align: center;
-    margin-top: 25px;
+    text-align: left;
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
