@@ -122,9 +122,6 @@ p {
 
 .center-photo {
     text-align: center;
-}
-
-.Finished-Project {
     padding-bottom: 50px;
 }
 
@@ -356,14 +353,15 @@ p {
 
 .process h1 {
     text-align: center;
-    color: #e8c5e0;
     font-size: 45px;
+    padding-top: 50px;
 }
 
 .problem-statement {
     display: block;
     margin-left: 200px;
     margin-right: 100px;
+    margin-top: -100px;
 }
 
 .ideate {
@@ -463,15 +461,20 @@ p {
     margin-left: 50px;
 }
 
-.final-design {
-    padding-top: 100px;
+.final-wireframe-image {
+    text-align: center;
 }
 
-.final-design h1 {
-    display: block;
-    margin-left: 300px;
-    margin-right: 200px;
-    padding-bottom: 30px;
+.final-design {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.final-design h3 {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 25px;
 }
 
 .final-design-text {
@@ -492,17 +495,8 @@ p {
     padding-top: 50px;
 }
 
-.retrospective h1 {
-    color: #e8c5e0;
-}
-
 .retrospective li {
     font-size: 18px;
-}
-
-.final-wireframe-image {
-    display: block;
-    margin: auto;
 }
 
 footer {
