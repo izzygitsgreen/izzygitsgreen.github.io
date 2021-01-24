@@ -56,30 +56,6 @@ p {
     margin-left: 50px;
 }
 
-.circle3 {
-    height: 100px;
-    width: 100px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #e8c5e0;
-    opacity: 0.5;
-    border-radius: 50%;
-    margin-left: 1025px;
-    margin-top: -40px;
-}
-
-.circle4 {
-    height: 150px;
-    width: 150px;
-    border-style: solid;
-    border-color: #fff;
-    background-color: #539FCF;
-    opacity: 0.25;
-    border-radius: 50%;
-    margin-left: 1075px;
-    margin-top: -55px;
-}
-
 .circle5 {
     height: 150px;
     width: 150px;
@@ -88,7 +64,7 @@ p {
     background-color: #e8c5e0;
     opacity: 0.25;
     border-radius: 50%;
-    margin-left: 800px;
+    margin-left: 700px;
     margin-top: -75px;
 }
 
@@ -100,7 +76,7 @@ p {
     background-color: #539FCF;
     opacity: 0.25;
     border-radius: 50%;
-    margin-left: 750px;
+    margin-left: 650px;
     margin-top: -105px;
 }
 
@@ -112,8 +88,8 @@ p {
     background-color: #e8c5e0;
     opacity: 0.25;
     border-radius: 50%;
-    margin-left: 700px;
-    margin-top: -175px;
+    margin-left: 650px;
+    margin-top: -225px;
 }
 
 .circle8 {
@@ -125,12 +101,10 @@ p {
     opacity: 0.25;
     border-radius: 50%;
     margin-left: 650px;
-    margin-top: -105px;
+    margin-top: -225px;
 }
 
 .title {
-    padding-top: 0px;
-    padding-bottom: 30px;
     display: block;
     text-align: center;
     margin: auto;
@@ -142,22 +116,15 @@ p {
     display: block;
     text-align: center;
     margin: auto;
-    padding-bottom: 50px;
-    width: 50%;
-    margin-top: -50px;
+    padding: 50px;
+    width: 70%;
 }
 
-.blob {
-    position: relative;
-    margin-top: -300px;
-    opacity: 0.75;
-    z-index: -1;
+.center-photo {
+    text-align: center;
 }
 
 .Finished-Project {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 50px;
 }
 
