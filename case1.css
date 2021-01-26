@@ -457,6 +457,12 @@ p {
     font-size: 18px;
 }
 
+.change2img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
 .iFrameStyle {
     margin-left: 50px;
 }
