@@ -132,13 +132,9 @@ p {
 .before-after {
     display: block;
     text-align: center;
-
+    margin-top: 25px;
 }
-
-.before-after h1 {
-    margin-bottom: 50px;
-}
-
+  
 .column1 {
     float: left;
     width: 50%;
@@ -186,7 +182,7 @@ p {
 }
 
 .user-research {
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
 
 
@@ -224,7 +220,7 @@ p {
 .Competitors {
     margin-left: 100px;
     padding: 2px;
-    border:2px solid: #e8c5e0;
+    border: 2px solid: #e8c5e0;
 }
 
 .SurveyResults {
