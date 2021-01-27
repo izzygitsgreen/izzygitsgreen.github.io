@@ -130,9 +130,8 @@ p {
 }
 
 .before-after {
-    display: block;
     text-align: center;
-    margin-top: 25px;
+    margin: 50px;
 }
   
 .column1 {
@@ -342,15 +341,11 @@ p {
     padding-bottom: 30px;
 }
 
-.icon-process {
-    margin-top: 350px;
-    text-align: center;
-}
-
 .process h1 {
     text-align: center;
     font-size: 45px;
     padding-top: 50px;
+    padding-bottom: 150px;
 }
 
 .problem-statement {
