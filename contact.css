@@ -86,17 +86,6 @@ hr {
     margin-top: -50px;
 }
 
-.plant2 {
-    float: left;
-    clear: left;
-    transform: rotate(180deg);
-    margin-top: -500px;
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
-}
-
 .top {
     margin-left: 100px;
     margin-top: 30px;

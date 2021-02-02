@@ -86,17 +86,6 @@ li {
     margin-top: 80px;
 }
 
-.plant2 {
-    float: left;
-    clear: left;
-    transform: rotate(180deg);
-    margin-top: -500px;
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
-}
-
 .top-wording {
     margin-left: 175px;
     margin-top: 40px;
