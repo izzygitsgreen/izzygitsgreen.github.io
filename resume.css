@@ -185,7 +185,7 @@ section.timeline-outer {
 
 .timeline {
     /*Line Color*/
-    border-left: 8px solid #fff;
+    border-left: 8px solid #000;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     color: #000;
@@ -210,7 +210,7 @@ section.timeline-outer {
 .timeline h1,
 .timeline h2,
 .timeline h3:hover {
-    color: #8db596;
+    color: #C0C0C0;
 }
 
 /*Description font sizes*/
