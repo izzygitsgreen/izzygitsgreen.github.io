@@ -77,19 +77,6 @@ p {
     z-index: -2;
 }
 
-.circle3 {
-    height: 250px;
-    width: 250px;
-    border-style: dashed;
-    border-color: #000;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    left: 525px;
-    top: 175px;
-    z-index: -2;
-}
-
 .title {
     position: absolute;
     left: 275px;
@@ -127,13 +114,16 @@ p {
 
 @media screen and (max-width: 1000px) {
     .rectangle {
-        margin-top: 25px;
-    }
-
-    .sideName h3 {
-        margin-top: 25px;
+        margin-top: 100px;
     }
 
     .description-words h2 {
     margin-top: 50px;
     }
+
+/*----Lowers side wording to show the nav bar----*/
+@media screen and (max-width: 1000px) {
+    .sideName h3 {
+        margin-top: 100px;
+    }
+}
