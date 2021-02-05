@@ -274,18 +274,14 @@ section.timeline-outer {
 }
 
 /* Footer Section */
-
-.bottom-heading h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8rem;
-}
-
 .white-section p {
     color: #000;
+    font-size: 10px;
 }
 
 .social-icon {
     margin: 20px 10px;
+    font-size: 20px;
 }
 
 .social-icon {

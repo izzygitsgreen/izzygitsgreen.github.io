@@ -178,13 +178,9 @@ p {
 
 /* Footer Section */
 
-.bottom-heading h3 {
-    font-size: 8em;
-}
-
-
 .white-section p {
     color: black;
+    font-size: 10px;
 }
 
 .social-icon {

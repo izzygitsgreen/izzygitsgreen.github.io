@@ -39,6 +39,10 @@ p {
     padding: 7% 15%;
 }
 
+.bottom-fluid p {
+    font-size: 10px;
+}
+
 /* Sections */
 .colored-section {
     background-color: #212529;
