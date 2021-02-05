@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat-Bold";
+    font-family: "Bitter", sans-serif;
 }
 
 p {
@@ -23,6 +23,10 @@ p {
     font-size: 8rem;
     line-height: 1.5;
     color: #212529;
+}
+
+.col-lg-6 p {
+    font-family: "Bitter", sans-serif;
 }
 
 .section-heading {
@@ -41,10 +45,6 @@ p {
     color: #fff;
 }
 
-.colored-section h1 {
-    font-family: 'Quicksand', sans-serif;
-}
-
 .white-section {
     background-color: #fff;
 }
@@ -55,7 +55,7 @@ p {
 }
 
 .navbar-brand {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     font-size: 4rem;
     font-weight: bold;
 }
@@ -65,7 +65,7 @@ p {
 }
 
 .nav-link {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
 
@@ -81,13 +81,13 @@ p {
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Center website */
 .main {
-  max-width: 1000px;
-  margin: auto;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .PortfolioProject {
@@ -96,37 +96,37 @@ p {
 }
 
 .row {
-  margin: 8px -16px;
+    margin: 8px -16px;
 }
 
 /* Add padding BETWEEN each column */
 .row,
-.row > .column {
-  padding: 8px;
+.row>.column {
+    padding: 8px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Content */
 .content {
-  background-color: white;
-  padding: 10px;
+    background-color: white;
+    padding: 10px;
 }
 
 .content h3 {
     padding-top: 20px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content p {
@@ -136,6 +136,10 @@ p {
 }
 
 /* Footer Section */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .white-section p {
     color: #000;

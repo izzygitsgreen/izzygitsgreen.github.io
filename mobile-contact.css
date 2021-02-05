@@ -1,11 +1,6 @@
-
 body {
   font-family: "Montserrat";
   text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
 }
 
 p {
@@ -14,7 +9,14 @@ p {
 }
 
 /* Headings */
-.big-heading {
+.big-heading h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8rem;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.big-heading h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 8rem;
   line-height: 1.5;
@@ -37,10 +39,6 @@ p {
   color: #fff;
 }
 
-.colored-section h1 {
-  font-family:'Quicksand', sans-serif;
-}
-
 .white-section {
   background-color: #fff;
 }
@@ -51,7 +49,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Bitter', sans-serif;
   font-size: 4rem;
   font-weight: bold;
 }
@@ -61,7 +59,7 @@ p {
 }
 
 .nav-link {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
 }
 
@@ -85,13 +83,13 @@ p {
 #fs-frm optgroup,
 #fs-frm label,
 #fs-frm #card-element:disabled {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: inherit;
     border: none;
     border-radius: 7px;
     display: block;
-    width: 60%;
+    width: 80%;
     padding: 0;
     margin-left: 100px;
     -webkit-appearance: none;
@@ -179,6 +177,11 @@ p {
 }
 
 /* Footer Section */
+
+.bottom-heading h3 {
+    font-size: 8em;
+}
+
 
 .white-section p {
     color: black;

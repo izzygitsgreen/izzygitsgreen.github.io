@@ -9,11 +9,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat-Bold";
+    font-family: 'Bitter', sans-serif;
 }
 
 p {
-    color: #8f8f8f;
+    color: #212529;
     font-size: 40px;
 }
 
@@ -33,22 +33,19 @@ p {
 .top-paragraph p {
     color: #000;
     padding-bottom: 30px;
+    font-family: 'Bitter', sans-serif;
 }
 
 /* Containers */
 .container-fluid {
     padding: 7% 15%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Sections */
 .colored-section {
     background-color: #212529;
     color: #fff;
-}
-
-.colored-section h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 6rem;
 }
 
 .white-section {
@@ -61,7 +58,7 @@ p {
 }
 
 .navbar-brand {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     font-size: 4rem;
     font-weight: bold;
 }
@@ -71,13 +68,13 @@ p {
 }
 
 .nav-link {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
 
 /* Buttons */
-.download-button {
-    margin: 5% 3% 5% 0;
+.btn {
+    margin: 0% 1% 5% 0;
 }
 
 /* Title Section */
@@ -89,42 +86,6 @@ p {
 
 #title .container-fluid {
     padding: 3% 15% 7%;
-}
-
-/* Title Image */
-.title-image {
-    width: 100%;
-    position: absolute;
-    right: 20%;
-    padding-top: 20px;
-}
-
-/* Features Section */
-#features {
-    position: relative;
-}
-
-.feature-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 4rem;
-    color: #fff;
-}
-
-.feature-box {
-    padding: 4.5%;
-}
-
-.icon {
-    color: #59886b;
-    margin-bottom: 1rem;
-}
-
-.icon:hover {
-    color: #8db596;
-}
-
-.white-section p {
-    color: black;
 }
 
 /* Footer Section */

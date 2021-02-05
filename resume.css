@@ -4,11 +4,6 @@ body {
     padding-top: 20px;
 }
 
-h1 {
-    font-size: 4em;
-    color: #212529;
-}
-
 h2 {
     font-size: 15px;
     line-height: 40px;
@@ -16,7 +11,7 @@ h2 {
 
 
 h3 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     font-size: 4em;
     color: #212529;
 }
@@ -44,53 +39,44 @@ p {
 }
 
 li {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*--------Navbar------------*/
-​ .navbar-custom {
-    background-color: #fff;
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
 }
 
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: black;
-    padding-left: 130px;
-    font-size: 20px;
+.nav-item {
+    padding: 0 9px;
 }
 
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-    color: black;
-    font-size: 15px;
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #228B22;
-}
-
-.IvyBorder {
-    position: absolute;
-    left: -200px;
-    top: -200px;
-    z-index: -1;
+.navbar-toggler {
+    margin-left: 25px;
 }
 
 /*---------Content--------*/
 
 .top-container {
-    margin-left: 175px;
-    margin-top: 80px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.top-container h1 {
+    font-family: 'Bitter', sans-serif;
+    font-size: 4em;
+    color: #212529;
 }
 
 .top-wording {
-    margin-left: 175px;
+    text-align: center;
     margin-top: 40px;
-    margin-bottom: 100px;
-    width: 50%;
+    margin-bottom: 40px;
     color: #212529;
 }
 
@@ -99,11 +85,13 @@ li {
 }
 
 .middle-container {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .job {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     margin-bottom: 20px;
     width: 100%;
     font-size: 15px;
@@ -184,7 +172,7 @@ div#frame a:hover.note {
 
 .main-container h3 {
     font-size: 4rem;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     color: #000;
 }
 
@@ -197,7 +185,7 @@ section.timeline-outer {
 
 .timeline {
     /*Line Color*/
-    border-left: 8px solid #59886b;
+    border-left: 8px solid #fff;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     color: #000;
@@ -215,7 +203,7 @@ section.timeline-outer {
 .timeline h2,
 .timeline h3 {
     font-size: 1.5rem;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', sans-serif;
     color: #000;
 }
 
@@ -262,7 +250,7 @@ section.timeline-outer {
 
 .timeline .event:after {
     /*Circle Color*/
-    box-shadow: 0 0 0 8px #59886b;
+    box-shadow: 0 0 0 8px #C0C0C0;
     left: -30px;
     background: #212121;
     border-radius: 50%;

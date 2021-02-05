@@ -4,91 +4,64 @@ body {
     padding-top: 20px;
 }
 
-h1 {
-    font-size: 4em;
-}
-
-h2 {
-    font-size: 15px;
-    line-height: 40px;
-}
-
-h3 {
-    font-size: 20px;
-    color: #212529;
-}
-
-h5 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 4em;
-    color: #212529;
-}
-
 p {
     color: #00000;
     font-size: 10px;
     margin-top: 10px;
 }
 
-/*--------Navbar------------*/
-​ .navbar-custom {
-    background-color: #fff;
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
 }
 
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: black;
-    padding-left: 130px;
-    font-size: 20px;
+.nav-item {
+    padding: 0 9px;
 }
 
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-    color: black;
-    font-size: 15px;
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #228B22;
+.navbar-toggler {
+    margin-left: 25px;
 }
 
 /*---------Content--------*/
 .top-container {
-    margin-left: 175px;
-    margin-right: 100px;
-    margin-top: 80px;
+    text-align: center;
+    margin-top: 15px;
     color: #212529;
 }
 
 .description-words {
-    margin-left: 175px;
-    width: 70%;
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;  
     margin-bottom: 40px;
     margin-top: 40px;
     color: #212529;
 }
 
-.palm {
-    float: right;
-    margin-top: -30px;
+.description-words h2 {
+    font-size: 15px;
+    line-height: 40px;
 }
 
-.top {
-    margin-left: 100px;
-    margin-top: 30px;
+.top-container h1 {
+    font-size: 4em;
+    font-family: 'Bitter', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Center website */
 .main {
-  max-width: 1000px;
-  margin: auto;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .PortfolioProject {
@@ -96,33 +69,39 @@ p {
     height: auto;
 }
 
+.content h3 {
+    font-size: 20px;
+    color: #212529;
+    font-family: 'Bitter', sans-serif;
+}
+
 .row {
-  margin: 8px -16px;
+    margin: 8px -16px;
 }
 
 /* Add padding BETWEEN each column */
 .row,
-.row > .column {
-  padding: 8px;
+.row>.column {
+    padding: 8px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 50%;
+    float: left;
+    width: 50%;
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Content */
 .content {
-  background-color: white;
-  padding: 10px;
+    background-color: white;
+    padding: 10px;
 }
 
 .content h3 {
@@ -136,16 +115,22 @@ p {
 }
 
 .wide-content {
-  text-align: center;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
- .wide-content p {
-  font-size: 15px;
- } 
-  
+.wide-content p {
+    font-size: 15px;
+}
+
+.wide-content h3 {
+    font-size: 20px;
+    color: #212529;
+    font-family: 'Bitter', sans-serif;
+}
 
 .wide-PortfolioProject {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 #bottom-container {
@@ -161,22 +146,23 @@ footer {
     color: #212529;
     margin: 10px 5px 10px 5px;
 }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
+    .column {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 900px) {
-.title-page {
-    width: 50%;
-  }
+    .title-page {
+        width: 50%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+    .column {
+        width: 100%;
+    }
 }
