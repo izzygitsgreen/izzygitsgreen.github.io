@@ -80,7 +80,7 @@ p {
 .title {
     position: absolute;
     left: 275px;
-    top: 175px;
+    top: 150px;
     z-index: -1;
     letter-spacing: 3px;
 }
@@ -95,7 +95,7 @@ p {
     padding-right: 40px;
     position: absolute;
     left: 275px;
-    top: 250px;
+    top: 225px;
     color: #212529;
 }
 

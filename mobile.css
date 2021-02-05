@@ -12,11 +12,6 @@ h6 {
     font-family: 'Bitter', sans-serif;
 }
 
-p {
-    color: #212529;
-    font-size: 100px;
-}
-
 /* Headings */
 .big-heading {
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +26,8 @@ p {
 }
 
 .top-paragraph p {
-    color: #000;
+    color: #212529;
+    font-size: 75px;
     padding-bottom: 30px;
     font-family: 'Bitter', sans-serif;
 }
@@ -48,8 +44,9 @@ p {
     color: #fff;
 }
 
-.white-section {
+.white-section p {
     background-color: #fff;
+    font-size: 10px;
 }
 
 /* Navigation Bar */
