@@ -75,7 +75,7 @@ p {
     display: block;
     width: 70%;
     padding: 0;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-right: 100px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -138,7 +138,7 @@ p {
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
     margin-bottom: 0;
-    margin-left: 300px;
+    margin-left: 400px;
 }
 
 #fs-frm select {
