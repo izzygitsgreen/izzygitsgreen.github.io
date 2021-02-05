@@ -36,7 +36,9 @@ p {
     font-size: 12px;
 }
 
-
+.navbar-toggler {
+    margin-left: 25px;
+}
 
 /*---------Content--------*/
 .rectangle {
