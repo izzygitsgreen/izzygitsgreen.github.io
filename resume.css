@@ -68,9 +68,9 @@ li {
 }
 
 .top-container h1 {
-    font-family: 'Bitter', sans-serif;
-    font-size: 4em;
-    color: #212529;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 3px;
+    font-size: 7em;
 }
 
 .top-wording {

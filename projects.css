@@ -50,8 +50,9 @@ p {
 }
 
 .top-container h1 {
-    font-size: 4em;
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 3px;
+    font-size: 7em;
 }
 
 * {
