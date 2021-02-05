@@ -44,8 +44,13 @@ h6 {
     color: #fff;
 }
 
-.white-section p {
+/*description font*/
+.top-section p {
     background-color: #fff;
+    font-size: 50px;
+}
+
+.white-section p {
     font-size: 10px;
 }
 
@@ -83,16 +88,16 @@ h6 {
 
 #title .container-fluid {
     padding: 3% 15% 7%;
+    margin-top: 100px;
 }
 
 /* Footer Section */
 .social-icon {
     margin: 20px 10px;
-}
-
-.social-icon {
+    font-size: 10px;
     color: black;
 }
+
 
 @media (max-width: 1028px) {
 
