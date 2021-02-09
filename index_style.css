@@ -112,18 +112,27 @@ p {
     padding: 10px;
 }
 
+@media screen and (min-width: 1200px) {
+  /* This part is only read by viewports wider than 1200 pixels */
+  .title h2 {
+    font-size: 7em;
+}
+
+}
+
+
 @media screen and (max-width: 1000px) {
     .rectangle {
         margin-top: 100px;
     }
 
     .description-words h2 {
-    margin-top: 75px;
+        margin-top: 75px;
     }
 
-/*----Lowers side wording to show the nav bar----*/
-@media screen and (max-width: 1000px) {
-    .sideName h3 {
-        margin-top: 100px;
+    /*----Lowers side wording to show the nav bar----*/
+    @media screen and (max-width: 1000px) {
+        .sideName h3 {
+            margin-top: 100px;
+        }
     }
-}
