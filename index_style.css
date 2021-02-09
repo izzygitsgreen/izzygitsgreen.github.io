@@ -83,10 +83,12 @@ p {
     top: 150px;
     z-index: -1;
     letter-spacing: 3px;
+
 }
 
 .title h2 {
     font-size: 5em;
+
 }
 
 .description-words {
@@ -104,6 +106,7 @@ p {
     line-height: 1.2em;
     width: 85%;
     font-family: 'Bitter', serif;
+    margin-top: 25px;
 }
 
 .btn {
