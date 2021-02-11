@@ -38,7 +38,7 @@ p {
 .description-words {
     text-align: center;
     margin-left: 125px;
-    margin-right: 125px;  
+    margin-right: 125px;
     margin-bottom: 40px;
     margin-top: 40px;
     color: #212529;
@@ -115,20 +115,6 @@ p {
     font-size: 15px;
 }
 
-.wide-content {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.wide-content p {
-    font-size: 15px;
-}
-
-.wide-content h3 {
-    font-size: 20px;
-    color: #212529;
-    font-family: 'Bitter', sans-serif;
-}
 
 .wide-PortfolioProject {
     margin-bottom: 25px;
