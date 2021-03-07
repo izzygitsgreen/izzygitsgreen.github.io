@@ -88,7 +88,6 @@ p {
 
 .title h2 {
     font-size: 5em;
-
 }
 
 .description-words {
@@ -102,7 +101,7 @@ p {
 }
 
 .description-words h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 1.2em;
     width: 85%;
     font-family: 'Bitter', serif;
