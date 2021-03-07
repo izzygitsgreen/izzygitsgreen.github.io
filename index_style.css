@@ -105,7 +105,7 @@ p {
     line-height: 1.2em;
     width: 85%;
     font-family: 'Bitter', serif;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -115,10 +115,11 @@ p {
 }
 
 @media screen and (min-width: 1200px) {
-  /* This part is only read by viewports wider than 1200 pixels */
-  .title h2 {
-    font-size: 7em;
-}
+
+    /* This part is only read by viewports wider than 1200 pixels */
+    .title h2 {
+        font-size: 7em;
+    }
 
 }
 
