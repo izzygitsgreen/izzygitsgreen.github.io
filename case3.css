@@ -9,6 +9,10 @@ p {
 }
 
 /*--------Navbar------------*/
+.banner {
+    margin-top: -450px;
+}
+
 .navbar-custom {
     background-color: #fff;
 }
@@ -31,7 +35,7 @@ p {
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #539FCF;
+    color: #a8df65;
 }
 
 .title {
