@@ -16,7 +16,7 @@ p {
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
     padding-left: 130px;
     font-size: 25px;
@@ -35,7 +35,7 @@ p {
 }
 
 .title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Sanchez', sans-serif;
     padding-top: 75px;
     padding-bottom: 50px;
     display: block;
@@ -45,7 +45,7 @@ p {
 }
 
 .heading {
-    font-family: 'Courgette', cursive;
+    font-family: 'Poppins', sans-serif;
     display: block;
     text-align: center;
     margin: auto;
@@ -54,7 +54,7 @@ p {
 }
 
 .center-photo h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sanchez', sans-serif;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .prototype {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ video {
 }
 
 .objectives {
-    font-family: 'Source Sans Pro', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     margin-left: 250px;
     margin-right: 200px;
     padding-bottom: 50px;
@@ -97,6 +97,7 @@ video {
 .column {
     float: left;
     width: 50%;
+    padding-right: 15px;
 }
 
 /* Clear floats after the columns */
@@ -137,7 +138,7 @@ video {
 }
 
 .process h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sanchez', sans-serif;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -150,7 +151,7 @@ video {
 
 .problem-statement h3,
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .ideate {
@@ -162,7 +163,7 @@ p {
 
 .ideate h3,
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Miro {
@@ -177,7 +178,7 @@ p {
 }
 
 .lowfi-wireframes h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 15px;
 }
 
@@ -189,21 +190,26 @@ p {
 }
 
 .visual-design h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .visual-design h4 {
-    font-family: 'source sans pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
 .font1 p {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'Sanchez', sans-serif;
     font-size: 20px;
 }
 
 .font2 p {
-    font-family: 'source sans pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.font3 p {
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
@@ -221,12 +227,12 @@ p {
 }
 
 .hifi-wireframes h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-left: 200px;
 }
 
 .hifi-wireframes h4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     margin-left: 200px;
 }
@@ -248,7 +254,7 @@ p {
 
 .iteration h3,
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .iteration li {
@@ -256,7 +262,7 @@ p {
 }
 
 .final-design h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Sanchez', sans-serif;
     text-align: center;
 }
 
@@ -265,7 +271,7 @@ p {
 }
 
 .retrospective h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .retrospective li {
