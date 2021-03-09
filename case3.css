@@ -10,7 +10,7 @@ p {
 
 /*--------Navbar------------*/
 .banner {
-    margin-top: -450px;
+    margin-top: -500px;
 }
 
 .navbar-custom {
@@ -144,6 +144,13 @@ p {
     text-align: center;
 }
 
+.empathize {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
 .problem-statement {
     display: block;
     margin-left: 200px;
@@ -232,13 +239,12 @@ p {
     margin-bottom: 25px;
 }
 
-
-
 .iteration {
     display: block;
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .iteration h3,
