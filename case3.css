@@ -66,16 +66,13 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .prototype {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-}
-
-video {
-    margin-top: -100px;
 }
 
 .column1 {
@@ -174,18 +171,6 @@ p {
     padding-top: 25px;
 }
 
-.lowfi-wireframes {
-    display: block;
-    margin-left: 200px;
-    margin-right: 100px;
-    padding-top: 50px;
-}
-
-.lowfi-wireframes h3 {
-    font-family: 'Poppins', sans-serif;
-    padding-top: 15px;
-}
-
 .visual-design {
     display: block;
     margin-left: 200px;
@@ -208,12 +193,12 @@ p {
 }
 
 .font2 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sanchez', sans-serif;
     font-size: 20px;
 }
 
 .font3 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 20px;
 }
 
@@ -241,13 +226,13 @@ p {
     margin-left: 200px;
 }
 
-.HiFi-Photo2 {
-    margin-left: 75px;
+.HiFi-Photo, .HiFi-Photo2, .HiFi-Photo3  {
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.HiFi-Photo3 {
-    margin-left: 150px;
-}
+
 
 .iteration {
     display: block;
