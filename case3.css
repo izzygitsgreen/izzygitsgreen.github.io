@@ -179,44 +179,18 @@ p {
     padding-top: 25px;
 }
 
-.visual-design {
-    display: block;
-    margin-left: 200px;
-    margin-right: 100px;
-    padding-top: 50px;
+.column3 {
+    float: left;
+    width: 33.3%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.visual-design h3 {
-    font-family: 'Poppins', sans-serif;
-}
-
-.visual-design h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-}
-
-.font1 p {
-    font-family: 'Sanchez', sans-serif;
-    font-size: 20px;
-}
-
-.font2 p {
-    font-family: 'Sanchez', sans-serif;
-    font-size: 20px;
-}
-
-.font3 p {
-    font-family: 'poppins', sans-serif;
-    font-size: 20px;
-}
-
-.dot {
-    height: 100px;
-    width: 100px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 20px;
+/* Clear floats after the columns */
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .hifi-wireframes {
