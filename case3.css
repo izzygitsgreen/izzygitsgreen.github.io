@@ -63,11 +63,7 @@ p {
 }
 
 .Finished-Project {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .prototype {
@@ -219,16 +215,11 @@ p {
     margin-left: 200px;
     margin-right: 100px;
     padding-top: 50px;
-    margin-bottom: 50px;
 }
 
 .iteration h3,
 p {
     font-family: 'Poppins', sans-serif;
-}
-
-.iteration li {
-    font-size: 18px;
 }
 
 .final-design h1 {
@@ -237,7 +228,8 @@ p {
 }
 
 .retrospective {
-    padding-left: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 
 .retrospective h3 {
