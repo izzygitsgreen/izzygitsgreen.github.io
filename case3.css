@@ -10,7 +10,7 @@ p {
 
 /*--------Navbar------------*/
 .banner {
-    margin-top: -500px;
+    margin-top: -200px;
 }
 
 .navbar-custom {
@@ -57,9 +57,12 @@ p {
     width: 60%;
 }
 
-.center-photo h1 {
+.center-photo h1, p {
     font-family: 'Sanchez', sans-serif;
-    text-align: center;
+}
+
+.center-photo p {
+text-align: center;
 }
 
 .Finished-Project {
@@ -89,6 +92,7 @@ p {
     margin-left: 250px;
     margin-right: 200px;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 .column {
@@ -116,7 +120,6 @@ p {
 }
 
 .context p {
-
     text-align: left;
 }
 
