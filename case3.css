@@ -61,7 +61,7 @@ p {
     font-family: 'Sanchez', sans-serif;
 }
 
-.center-photo p {
+.center-photo p, h1 {
 text-align: center;
 }
 
